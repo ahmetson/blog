@@ -1,6 +1,6 @@
 {
-    "title": "Bare",
-    "name": "startbootstrap-bare",
+    "title": "Turkmen Blog",
+    "name": "turkmenson-blog",
     "version": "4.3.0",
     "scripts": {
         "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
@@ -12,7 +12,7 @@
         "start": "npm run build && node scripts/start.js",
         "start:debug": "npm run build && node scripts/start-debug.js"
     },
-    "description": "A basic HTML starter template for Bootstrap",
+    "description": "Turkmenson blog",
     "keywords": [
         "css",
         "sass",
@@ -21,19 +21,16 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template/bare",
+    "homepage": "https://turkmenson.com",
     "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-bare/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "https://github.com/ahmetson/blog/issues",
+        "email": "medet@turkmenson.com"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (https://davidmiller.io/)"
-    ],
+    "author": "Medet Ahmetson",
     "repository": {
         "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-bare.git"
+        "url": "https://github.com/ahmetson/blog.git"
     },
     "dependencies": {
         "bootstrap": "4.6.0"
