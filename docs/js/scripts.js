@@ -1,7 +1,7 @@
 /*!
-* Start Bootstrap - Bare v4.3.0 (https://startbootstrap.com/template/bare)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-bare/blob/master/LICENSE)
+* Start Bootstrap - Turkmen Blog v4.3.0 (https://turkmenson.com)
+* Copyright 2013-2023 Medet Ahmetson
+* Licensed under MIT (https://github.com/StartBootstrap/turkmenson-blog/blob/master/LICENSE)
 */
 (function ($) {
     "use strict"; // Start of use strict
