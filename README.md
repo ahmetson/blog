@@ -19,7 +19,11 @@ It's based on the [Start Bootstrap - Bare](https://startbootstrap.com/template/b
 
 ### Basic Usage
 
-Simply edit the HTML and CSS files included with `docs` directory.
+Simply edit the `./src/pug/` files.
+
+> Reference
+> https://pugjs.org/language/plain-text.html
+
 These are the only files you need to worry about, 
 you can ignore everything else! 
 To preview the changes you make to the code, 
