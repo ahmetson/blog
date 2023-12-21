@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Turkmenson</title>
+    <link href="https://turkmenson.com/feed.xml" rel="self" />
+    <link href="https://turkmenson.com" />
+    <updated>2023-12-21T16:03:45+07:00</updated>
+    <author>
+        <name>Medet Ahmetson</name>
+    </author>
+    <id>https://turkmenson.com</id>
+
+    <entry>
+        <title>Phishing by Vera token</title>
+        <author>
+            <name>Medet Ahmetson</name>
+        </author>
+        <link href="https://turkmenson.com/phishing-by-vera-token.html"/>
+        <id>https://turkmenson.com/phishing-by-vera-token.html</id>
+            <category term="technology"/>
+            <category term="phishing"/>
+            <category term="blockchain"/>
+
+        <updated>2023-12-21T16:03:45+07:00</updated>
+            <summary>
+                <![CDATA[
+                    2 August 2021 Being myself in the crypto industry and as a developer, I never thought I would be scammed. But that happened. And it happened quickly. I was using https://farmfol.io/ to track my wallet balance. And saw that it has 100K USD. I thought&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>2 August 2021</p>
+<p><span style="font-weight: 400;">Being myself in the crypto industry and as a developer, I never thought I would be scammed. But that happened. And it happened quickly.</span></p>
+<p> </p>
+<p><span style="font-weight: 400;">I was using </span><a href="https://farmfol.io/"><span style="font-weight: 400;">https://farmfol.io/</span></a><span style="font-weight: 400;"> to track my wallet balance. And saw that it has 100K USD. I thought that someone deposited his tokens to me accidentally. So, I researched the token. The token is called Vera. And it’s domain name is </span><a href="http://thevera.io/"><span style="font-weight: 400;">http://thevera.io/</span></a><span style="font-weight: 400;">.</span></p>
+<p> </p>
+<p><span style="font-weight: 400;">The website had a “claim” button. I clicked on it to approve my wallet. Then, I suddenly realized that they might withdraw my crypto wallet. It was on Binance bright chain, where transaction confirmation speed is 3-4 seconds. I was a few seconds late before the transaction was confirmed. As a result, I was screwed for 2BNB (~600$).</span></p>
+<p> </p>
+<p><span style="font-weight: 400;">I tried to remove the token from my wallet but without luck. Then I tried to transfer tokens to an empty address, but that didn’t work either.</span></p>
+<p> </p>
+<p><span style="font-weight: 400;">Tokens are smart contracts where the token developer programs every token function. The developer of the Vera token puts a high fee on any transaction or completely rejects any method call.</span></p>
+<p> </p>
+<p><span style="font-weight: 400;">This case also proved my Blockchain idea that makes users own their wallets and accounts. What is the point of having a private key when the tokens in my balance are without my acknowledgment? Or when I can’t do anything with them because the developers decided like this.</span></p>
+<p> </p>
+<p><span style="font-weight: 400;">Solution: The Seascape blockchain will have one token with unlimited minting. When users create a new token, they allocate the part of the native token and add an alias name. Since the core part of the token is a native token, the transferring and burning of the token will be available for any user.</span></p>
+<p><span style="font-weight: 400;">Besides that, since all tokens are backed by the native token, through the native token, users will be able to exchange tokens with each other without any dex.</span></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>RNB Blockchain whitepaper</title>
+        <author>
+            <name>Medet Ahmetson</name>
+        </author>
+        <link href="https://turkmenson.com/rnb-blockchain-whitepaper.html"/>
+        <id>https://turkmenson.com/rnb-blockchain-whitepaper.html</id>
+            <category term="technology"/>
+            <category term="project-rng"/>
+            <category term="project"/>
+            <category term="blockchain"/>
+
+        <updated>2023-12-21T16:01:29+07:00</updated>
+            <summary>
+                <![CDATA[
+                    9th May 2021 Generating secure random numbers is a challenging task. By fast numbers, I mean that a) predicting what the next number is impossible, and b) It generates numbers without putting them in favor of one of the stakeholders. The nature of public blockchain,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><em>9th May 2021</em></p>
+<h1><strong>OVERVIEW</strong></h1>
+<p><span style="font-weight: 400;">Generating secure random numbers is a challenging task. By fast numbers, I mean that a) predicting what the next number is impossible, and b)  It generates numbers without putting them in favor of one of the stakeholders.</span></p>
+<p><span style="font-weight: 400;">The nature of public blockchain, with its decentralized p2p architecture, is ideal for producing secure numbers.</span></p>
+<p><span style="font-weight: 400;">This whitepaper discusses the implementation of secure random numbers using blockchain. </span></p>
+<h1><strong>GOALS OF THE PROJECT</strong></h1>
+<ol>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Free public random number generator</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Secure, where numbers are not predictable.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Generated numbers are stored in the database permanently for checking in the future</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Generated numbers are not programmed to drop specific numbers with high probability.</span></li>
+</ol>
+<h1><strong>RNG V 0.0 User-generated numbers</strong></h1>
+<p><span style="font-weight: 400;">Since the creation of the blockchain takes some time, we decided to make a quick version of the RNG. This short version of the RNG blockchain is versioned as 0.0.</span></p>
+<p><span style="font-weight: 400;">In this version, the nodes accessing the RNG send a random number in their transactions. The sum of all random numbers divided by all senders within the block is defined as a new Random number for the block.</span></p>
+<p><span style="font-weight: 400;">The RNG V 0.0 will have the following transitions:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Request a new Random number   (DONE)</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">- accepts (one random number) in byte32 format. This number is used to generate a random number. To get a random number, the caller should stake some tokens.</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">- returns another random number in byte32 format. It requires 0.01 RNG tokens to be cut from the staked RNG tokens.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Send a random number</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">- accepts (one random number) in byte32 format. This transaction could be sent by participating validators only.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Stake a token</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">- Stake 100 RNG tokens. It will register a user to generate a random number. A new stake will be added to the previous ones if a user has already staked tokens.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Get a staked token amount</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">- accepts a wallet address</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">- returns an amount of staked tokens for the user.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Change fee</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">- accepts a new fee for requesting a Random Number and deadline (up to 24 hours in seconds and a minimum of 1 hour).</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">- whether this was accepted.</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">If ⅔ of the users call this transaction with the same fee, the fee for requesting payment will be updated.</span></li>
+</ul>
+<h1><strong>RNG V 1.0 THEORETICAL SPECIFICATIONS</strong></h1>
+<p><span style="font-weight: 400;">How does the RNG blockchain work without going to the programming language and technology used in it?</span></p>
+<p><span style="font-weight: 400;">The idea is that the RNG blockchain generates random numbers in every block of the blockchain.</span></p>
+<p><span style="font-weight: 400;">All validators of the RNG blockchain must provide a unique wallet address for every block for consensus voting. The sum of all unique wallet addresses divided by the number of voters is the Generated Random number of that block. </span></p>
+<p> </p>
+<p><span style="font-weight: 400;">We came up with three solutions to prove that the signature is nondeterministic.</span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Any node that participates in the generation of random numbers also has a representative signature. This signature stakes 100 RNG tokens, which allows this node to participate in number generation. Any unique signature used once can be used to withdraw 50% of the staked RNG tokens per user from the blockchain within the next 30 days after usage of the signature. Suppose the unique signature is used for withdrawing a token. In that case, the representative node is kicked out from the participation of random number generation, while the rest of 50% of staked RNG tokens are redistributed among other stakeholders. </span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">So, it is in the interest of all stakeholders to try to find the signature or guess it for the other stakeholders to prevent them from cheating.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">The node client should always be public, meaning everyone could join the blockchain for random number generation without anyone’s permission. Since the sum of the hash of all wallets is changing dramatically even after the addition of one more signature, it will allow the blockchain to be unpredictable if many nodes connect to the blockchain from around the world.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">There is the option where anyone, whether a unique signature or representative signature or not related to the RNG signature, can put 1 RNG token, the future block number, and the possible value. If the value generated in the future in the block number is correct, the wallet address could take 50% of all stake RNGs in the blockchain. This will keep all stakes trying to put unpredictable signatures, while those who want to earn money will always try to check the blockchain for prediction. This will ensure that generated random numbers are safe.</span></li>
+</ol>
+<h2><strong>RNG Blockchain Technical Requirements</strong></h2>
+<p><span style="font-weight: 400;">It is a blockchain in Cosmos Network created with Cosmos SDK on the tendermint core. RNG blockchain has the following features:</span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">A lightweight client</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">States in key-value format: </span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">2.1. A list of all unique addresses of every representative address.</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">    Representative Account =&gt; array of unique addresses</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">    Unique address =&gt; representative</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">2.2 List all random numbers since block one, including unique addresses and their numbers.</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">     Block number =&gt; struct(random_address, array(unique addresses), unique_address_amount, proposer)</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">2.3 A list of representative addresses with their staked RNG tokens amount.</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">     Representative stake =&gt; stake amount</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">2.4 A balance of each address of RNG tokens that are not used for staking:</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">     Wallet address =&gt; balance</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">2.5 A prediction list for each block</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">     Block number =&gt; array of Structs(predicted_address, payment_address)</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">     Prediction reserves =&gt; balance.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Functions such as</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">3.1 Stake RNG tokens to add a representative token to the data structure 2.3</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">3.2 A function to push unique address for generating random numbers, </span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">3.3 Generating random number by the sum of all unique addresses pushed to the server, </span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">3.4 Unstaking tokens with the representative address</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">3.5 Unstaking tokens with a unique address, which automatically distributes 50% of staked tokens to other token holders, while 50% goes to the individual address</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">3.6 claim additional tokens for stakes that they got from other stake token distribution, </span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">3.7 Spend 1 RNG with the random number and the block to predict the upcoming number to withdraw 50% of all staked tokens.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">An easy RPC to fetch the random number by event broadcast or rest API.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">A bridge to the Ethereum blockchain where RNG tokens are minted. Bridge to transfer into or out from rng blockchain rng tokens.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">an intelligent contract on the Ethereum blockchain locks RNGs transferred to the RNG blockchain.</span></li>
+</ol>
+<p><strong>RNG blockchain Technical implementation</strong></p>
+<p><span style="font-weight: 400;">We edit the voter module by adding additional features, such as auto-generating the private keys that voters submit to the block (automatically by the module). The voter module will store the private keys in the local storage, encrypted by the voter’s primary signature.</span></p>
+<p><span style="font-weight: 400;">We will also create a new rng-history module to store all the rng states. This module is connected to the voter module to get the voter’s signatures.</span></p>
+<p><span style="font-weight: 400;">Finally, we edit the consensus module to connect to the rng-history module to write data into rng states.</span></p>
+<p><strong>RNG token</strong></p>
+<p><span style="font-weight: 400;">RNG tokens are erc20 tokens on the Ethereum blockchain. USDT tokens back them. </span></p>
+<p><span style="font-weight: 400;">1 usdt = 10 rng token. </span></p>
+<p><span style="font-weight: 400;">If a user wants to mint 100 RNG tokens, he has to call the mint function of the RNG token. The mint function will lock ten USD on behalf of the user to issue RNG tokens.</span></p>
+<p><span style="font-weight: 400;">If a user wants to take back his USDT tokens used to mint RNG tokens, then the user calls the burn method in the RNG token, which will burn RNGs while transferring the locked USDTs to the user.</span></p>
+<h1><strong>MILESTONES</strong></h1>
+<h2><strong>Write the whitepaper</strong></h2>
+<p><span style="font-weight: 400;">Till 16th May, write all technical aspects of the RNG blockchain and RNG token.</span></p>
+<h2><strong>Write the Demo blockchain (without bridge)</strong></h2>
+<p><span style="font-weight: 400;">Till the end of May 2021, write the RNG blockchain using Cosmos SDK.</span></p>
+<h2><strong>Write the RNG token</strong></h2>
+<p><span style="font-weight: 400;">Till 10th June 2021, write the RNG token with mint and burn functions.</span></p>
+<h2><strong>Write the Bridge blockchain.</strong></h2>
+<p><span style="font-weight: 400;">Till 20th June 2021, write the RNG bridge between the RNG blockchain and the Ethereum blockchain.</span></p>
+<h2><strong>Launch of the product</strong></h2>
+<p><span style="font-weight: 400;">Till 30th June 2021, test the system and launch it.</span></p>
+<h2><strong>Write the Whitepaper 2.0 for the profitable version of the RNG blockchain</strong></h2>
+<p><span style="font-weight: 400;">How do RNG blockchain nodes earn money? In the next version of the blockchain, this should be possible.</span></p>
+<p><br><br><br><br></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Conspect: Scavenge - blockchain game created with Cosmos SDK</title>
+        <author>
+            <name>Medet Ahmetson</name>
+        </author>
+        <link href="https://turkmenson.com/conspect-scavenge-blockchain-game-created-with-cosmos-sdk.html"/>
+        <id>https://turkmenson.com/conspect-scavenge-blockchain-game-created-with-cosmos-sdk.html</id>
+            <category term="technology"/>
+            <category term="cosmos-sdk"/>
+            <category term="blockchain-conspect"/>
+            <category term="blockchain"/>
+
+        <updated>2023-12-21T15:52:57+07:00</updated>
+            <summary>
+                <![CDATA[
+                    15 May 2021 Terrible tutorial. A lot of things are not clear. Now, I have to deep diving into the code itself. This tutorial is helpful to get a boilerplate.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><em>15 May 2021</em></p>
+<p>Terrible tutorial. A lot of things are not clear. Now, I have to deep diving into the code itself. This tutorial is helpful to get a boilerplate.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>The Sandbox (SAND)</title>
+        <author>
+            <name>Medet Ahmetson</name>
+        </author>
+        <link href="https://turkmenson.com/the-sandbox-sand.html"/>
+        <id>https://turkmenson.com/the-sandbox-sand.html</id>
+            <category term="technology"/>
+            <category term="blockchain-review"/>
+            <category term="blockchain"/>
+
+        <updated>2023-12-21T15:50:47+07:00</updated>
+            <summary>
+                <![CDATA[
+                    14 May 2021 https://www.sandbox.game/ According to the whitepaper, the Sandbox's primary mission is to introduce blockchain technology in mainstream gaming successfully.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>14 May 2021</p>
+<p><a href="https://www.sandbox.game/">https://www.sandbox.game/</a></p>
+<p>According to the whitepaper, the Sandbox's primary mission is to introduce blockchain technology in mainstream gaming successfully.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>My Neighbor Alice (ALICE)</title>
+        <author>
+            <name>Medet Ahmetson</name>
+        </author>
+        <link href="https://turkmenson.com/my-neighbor-alice-alice.html"/>
+        <id>https://turkmenson.com/my-neighbor-alice-alice.html</id>
+            <category term="technology"/>
+            <category term="blockchain-review"/>
+            <category term="blockchain"/>
+
+        <updated>2023-12-21T15:49:25+07:00</updated>
+            <summary>
+                <![CDATA[
+                    14 May 2021 https://www.myneighboralice.com/ It is a multiplayer game where anyone can buy and own virtual islands, collect and build exciting items, and meet new friends.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><em>14 May 2021</em></p>
+<p><a href="https://www.myneighboralice.com/">https://www.myneighboralice.com/</a></p>
+<p>It is a multiplayer game where anyone can buy and own virtual islands, collect and build exciting items, and meet new friends.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Axie Infinity (AXS)</title>
+        <author>
+            <name>Medet Ahmetson</name>
+        </author>
+        <link href="https://turkmenson.com/axie-infinity-axs.html"/>
+        <id>https://turkmenson.com/axie-infinity-axs.html</id>
+            <category term="technology"/>
+            <category term="blockchain-review"/>
+            <category term="blockchain"/>
+
+        <updated>2023-12-21T15:49:18+07:00</updated>
+            <summary>
+                <![CDATA[
+                    14 May 2021 https://axieinfinity.com/ It is a blockchain-based trading and battling game partially owned and operated by the players.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>14 May 2021</p>
+<p><a href="https://axieinfinity.com/">https://axieinfinity.com/</a></p>
+<p>It is a blockchain-based trading and battling game partially owned and operated by the players.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Ultra (UOS)</title>
+        <author>
+            <name>Medet Ahmetson</name>
+        </author>
+        <link href="https://turkmenson.com/ultra-uos.html"/>
+        <id>https://turkmenson.com/ultra-uos.html</id>
+            <category term="technology"/>
+            <category term="blockchain-review"/>
+            <category term="blockchain"/>
+
+        <updated>2023-12-21T15:49:10+07:00</updated>
+            <summary>
+                <![CDATA[
+                    14 May 2021 https://ultra.io/ A blockchain-based PC game distribution platform designed to provide both gamers and game developers with new opportunities. It consists of an ecosystem where gamers can buy games, play games, resell their used games and items.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><em>14 May 2021</em></p>
+<p><a href="https://ultra.io/">https://ultra.io/</a></p>
+<p>A blockchain-based PC game distribution platform designed to provide both gamers and game developers with new opportunities. It consists of an ecosystem where gamers can buy games, play games, resell their used games and items.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Revv (REVV)</title>
+        <author>
+            <name>Medet Ahmetson</name>
+        </author>
+        <link href="https://turkmenson.com/revv-revv.html"/>
+        <id>https://turkmenson.com/revv-revv.html</id>
+            <category term="technology"/>
+            <category term="blockchain-review"/>
+            <category term="blockchain"/>
+
+        <updated>2023-12-21T15:49:03+07:00</updated>
+            <summary>
+                <![CDATA[
+                    14 May 2021 https://www.revvmotorsport.com/ It's the main cryptocurrency for the identical branded motorsports blockchain game titles produced by Animoca Brands.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>14 May 2021</p>
+<p><a href="https://www.revvmotorsport.com/">https://www.revvmotorsport.com/</a></p>
+<p>It's the main cryptocurrency for the identical branded motorsports blockchain game titles produced by Animoca Brands.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Phantasma (SOUL)</title>
+        <author>
+            <name>Medet Ahmetson</name>
+        </author>
+        <link href="https://turkmenson.com/phantasma-soul.html"/>
+        <id>https://turkmenson.com/phantasma-soul.html</id>
+            <category term="technology"/>
+            <category term="blockchain-review"/>
+            <category term="blockchain"/>
+
+        <updated>2023-12-21T15:48:54+07:00</updated>
+            <summary>
+                <![CDATA[
+                    14 May 2021 https://phantasma.io/ Fast, secure, and scalable blockchain solution that allows developers to build decentralized applications and facilitates interoperability with other blockchains while maintaining a decentralized governance system.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><em>14 May 2021</em></p>
+<p><a href="https://phantasma.io/">https://phantasma.io/</a></p>
+<p>Fast, secure, and scalable blockchain solution that allows developers to build decentralized applications and facilitates interoperability with other blockchains while maintaining a decentralized governance system.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>BEPRO Network (BEPRO)</title>
+        <author>
+            <name>Medet Ahmetson</name>
+        </author>
+        <link href="https://turkmenson.com/bepro-network-bepro.html"/>
+        <id>https://turkmenson.com/bepro-network-bepro.html</id>
+            <category term="technology"/>
+            <category term="blockchain-review"/>
+            <category term="blockchain"/>
+
+        <updated>2023-12-21T15:48:47+07:00</updated>
+            <summary>
+                <![CDATA[
+                    14 May 2021 https://bepro.network/ It is a codebase for DeFi, Gaming, Prediction Markets, and More. 21 December 2023 The company was rebranded into a Task Based Work.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><em>14 May 2021</em></p>
+<p><a href="https://bepro.network/">https://bepro.network/</a></p>
+<p>It is a codebase for DeFi, Gaming, Prediction Markets, and More.</p>
+<hr>
+<p><em>21 December 2023</em></p>
+<p>The company was rebranded into a Task Based Work.</p>
+            ]]>
+        </content>
+    </entry>
+</feed>
