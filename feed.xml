@@ -3,12 +3,217 @@
     <title>Turkmenson</title>
     <link href="https://turkmenson.com/feed.xml" rel="self" />
     <link href="https://turkmenson.com" />
-    <updated>2023-12-21T17:31:27+07:00</updated>
+    <updated>2023-12-22T16:41:47+07:00</updated>
     <author>
         <name>Medet Ahmetson</name>
     </author>
     <id>https://turkmenson.com</id>
 
+    <entry>
+        <title>Notes on &quot;Practical deep learning&quot;: launching</title>
+        <author>
+            <name>Medet Ahmetson</name>
+        </author>
+        <link href="https://turkmenson.com/notes-on-practical-deep-learning-launching.html"/>
+        <id>https://turkmenson.com/notes-on-practical-deep-learning-launching.html</id>
+            <category term="technology"/>
+            <category term="ai-notes"/>
+            <category term="ai"/>
+
+        <updated>2023-12-22T16:41:47+07:00</updated>
+            <summary>
+                <![CDATA[
+                    Chapter 2: Production Start with the objective when designing your model. For example, Google started with the objective: "What is the user's main objective in typing in a search query?" This led to the aim to "show the most relevant search result." The next step&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h2>Chapter 2: Production</h2>
+<p>Start with the objective when designing your model.</p>
+<p>For example, Google started with the objective: "<em><span style="text-decoration: underline;">What is the user's main objective in typing in a search query?</span></em>" This led to the aim to "<span style="text-decoration: underline;"><em>show the most relevant search result.</em></span>"</p>
+<p>The next step is to determine what actions you can take to achieve the objective. In Google's case, it was ranking search results.</p>
+<p>The third step is determining what new data you need for the actions. In Google's case, what new data would they need to produce such a ranking?</p>
+<p>They realized that the implicit information regarding which pages linked to which other page could be useful for this purpose.</p>
+<p>We begin thinking about building a predictive model after these three steps. The objective, levers, the data we have, and the data we need determine the model we make. The models will take the levers and uncontrollable variables as their inputs; the output can be combined to predict the final state of the objective.</p>
+<h3>Recap by answering the questions</h3>
+<ol>
+<li>If the images for the bear classifier are from the game, then the app won't work because it was trained with the photo of the real bears.</li>
+<li>The text models cannot understand the semantics. This could lead to incorrect predictions.</li>
+<li>Text models could be used to troll the internet to spread disinformation.</li>
+<li>Usage of AI doesn't guarantee 100% results. It's especially critical with the medical reports. One solution is to work en-par with the people. The highly predictive outputs could be automated. For less predicted outcomes, we can do a manual check.</li>
+<li>The AI is good at high cardinality tabular data. The high cardinality means it's something that contains ample discrete choices.</li>
+<li>The recommendation systems work with user-generated behaviors. It recommends similar products from other sales. But it doesn't mean users didn't see them or may want something others didn't pick yet.</li>
+<li>Drivetrain approach: a) define an objective. b) define actions to reach the objective. c) define the data you need for the actions.</li>
+<li>Drivetrain approach for the video recommendation system: a) keep users in the platform. b) find liked videos like this from people of similar taste. c) create a data of liked data.</li>
+<li>The DataLoader class prepares data for training from unprepared data.</li>
+<li>To create a DataLoader, we need four things: a) What kind of data are we working with: images and text? b) How do you get those data: from files, CSV, or SQL? c) How do you label the items by filename? d) How to create a validation set: split items randomly by a seed.</li>
+<li>The splitter parameter of DataLoader describes how to get the validation set from the items list.</li>
+<li>The splitter takes two arguments: the percentage of items in the validation set and a seed to generate a random list.</li>
+<li>To determine independent variables, we use X. To represent dependent variables, we use Y.</li>
+<li>When images have different sizes, we need to normalize them—crop, pad, or squish.</li>
+<li>Data augmentation creates variants of the item by applying transforming functions. It helps to increase the amount of training set.</li>
+<li>Item transformers apply a function to each data. Batch transformers use the function of a whole batch.</li>
+<li>The confusion matrix shows a table of the training results. It helps to debug the data we used for training.</li>
+<li>The export function saves the architecture and model parameters together.</li>
+<li>To use a prediction model instead for training is called inference.</li>
+<li>IPython widgets are GUI components combining JavaScript and Python codes.</li>
+<li>we may use CPU in production since we work with one item at a time. In training, we may use GPU to accelerate the process.</li>
+<li>If a model is on a server, then there is a risk of working with confidential user data. Or network latency may slow down the prediction.</li>
+<li>the camera might capture the bears from different angles for a bear classifier, but it didn't work with the night vision. The camera may have low resolution.</li>
+<li>Out of domain is when an image for inference is not in a category of images we used for training.</li>
+<li>The domain shift is when the type of data changes over time.</li>
+<li>Three deployment process steps: a) export model for inference. b) create a UI. c) host the model.</li>
+</ol>
+<hr>
+<p>Objective: Understand the text in depth. Users should not be distracted.</p>
+<p>Action: Track all words users encounter.</p>
+<p>Then, get the description and insert it into the context. If it's a link, get a summary and add it. </p>
+<p>Data: track all words the user knows. Track how often he read and keep the terminology until it won't increase in appearance.</p>
+<p>What should happen if it went out? Everyone on the internet uses it.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Programming Language: T</title>
+        <author>
+            <name>Medet Ahmetson</name>
+        </author>
+        <link href="https://turkmenson.com/programming-language-t.html"/>
+        <id>https://turkmenson.com/programming-language-t.html</id>
+            <category term="project"/>
+            <category term="programming language"/>
+
+        <updated>2023-12-21T18:36:29+07:00</updated>
+            <summary>
+                <![CDATA[
+                    https://github.com/ahmetson/tpl A programming language with the Turkmen language syntax.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><a href="https://github.com/ahmetson/tpl">https://github.com/ahmetson/tpl</a></p>
+<p>A programming language with the Turkmen language syntax.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Programming Language: Rigidity</title>
+        <author>
+            <name>Medet Ahmetson</name>
+        </author>
+        <link href="https://turkmenson.com/programming-language-rigidity.html"/>
+        <id>https://turkmenson.com/programming-language-rigidity.html</id>
+            <category term="project"/>
+            <category term="programming language"/>
+
+        <updated>2023-12-21T18:35:50+07:00</updated>
+            <summary>
+                <![CDATA[
+                    https://github.com/ahmetson/rigidity A secure version of Solidity to write smartcontracts. It's a type driven inspired by programming languages such as Idris.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><a href="https://github.com/ahmetson/rigidity">https://github.com/ahmetson/rigidity</a></p>
+<p>A secure version of Solidity to write smartcontracts.</p>
+<p>It's a type driven inspired by programming languages such as Idris.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Game: Para-para</title>
+        <author>
+            <name>Medet Ahmetson</name>
+        </author>
+        <link href="https://turkmenson.com/game-para-para.html"/>
+        <id>https://turkmenson.com/game-para-para.html</id>
+            <category term="project"/>
+            <category term="game"/>
+
+        <updated>2023-12-21T18:26:59+07:00</updated>
+            <summary>
+                <![CDATA[
+                    https://ahmetson.github.io/para-para/ A demo of the para para. A new gameplay for the match 3. Match the elements and collect the chemical elements faster than the opponent. Prevent the opponent from containing his chemical elements if he is closer.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><a href="https://ahmetson.github.io/para-para/">https://ahmetson.github.io/para-para/</a></p>
+<p>A demo of the para para. A new gameplay for the match 3.</p>
+<p>Match the elements and collect the chemical elements faster than the opponent. Prevent the opponent from containing his chemical elements if he is closer.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Game: Serdar</title>
+        <author>
+            <name>Medet Ahmetson</name>
+        </author>
+        <link href="https://turkmenson.com/game-serdar.html"/>
+        <id>https://turkmenson.com/game-serdar.html</id>
+            <category term="project"/>
+            <category term="game"/>
+
+        <updated>2023-12-21T18:30:31+07:00</updated>
+            <summary>
+                <![CDATA[
+                    Demo: https://github.com/ahmetson/serdar Source Code: https://github.com/ahmetson/serdar-source A mobile educational game that teaches math. There was a Turkmen village under the mountains. An ally of the town called out for a defense as all men went to the rescue. Another village belonged to the wealthiest man in&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Demo: <a href="https://github.com/ahmetson/serdar">https://github.com/ahmetson/serdar</a></p>
+<p>Source Code: <a href="https://github.com/ahmetson/serdar-source">https://github.com/ahmetson/serdar-source</a></p>
+<p>A mobile educational game that teaches math. </p>
+<h2>Story</h2>
+<p>There was a Turkmen village under the mountains. An ally of the town called out for a defense as all men went to the rescue.</p>
+<p>Another village belonged to the wealthiest man in the world. He loved the daughter of the Chief. But the village Chief's daughter didn't respond to the richest man's love. </p>
+<p>When all the men left the village, the world's richest man attached the village to take the girl by force.</p>
+<p>The village sent a message to the men. A group of men led by Serdar returned to the town as soon as possible.</p>
+<p>The wealthiest man mercenaries to block the Serdar while catching the village with his force.</p>
+<h2>Gameplay</h2>
+<p>To not spend his time, help Serdar to choose the right path from multiple routes.</p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Archived projects</title>
+        <author>
+            <name>Medet Ahmetson</name>
+        </author>
+        <link href="https://turkmenson.com/archived-projects.html"/>
+        <id>https://turkmenson.com/archived-projects.html</id>
+            <category term="project"/>
+
+        <updated>2023-12-21T18:33:56+07:00</updated>
+            <summary>
+                <![CDATA[
+                    WaiMaiPay Demo: https://github.com/ahmetson/wai-mai-pai Backend Source Code: https://github.com/ahmetson/api-wmp This was the project I was working on in 2017. WaiMaiPay is a delivery man's app that notifies the clients as it gets closer. Sometimes, people are not checking their smartphones. The delivery guy using it should call&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><strong>WaiMaiPay</strong></p>
+<p>Demo: <a href="https://github.com/ahmetson/wai-mai-pai">https://github.com/ahmetson/wai-mai-pai</a></p>
+<p>Backend Source Code: <a href="https://github.com/ahmetson/api-wmp">https://github.com/ahmetson/api-wmp</a></p>
+<p class="msg msg--warning">This was the project I was working on in 2017.</p>
+<p>WaiMaiPay is a delivery man's app that notifies the clients as it gets closer. Sometimes, people are not checking their smartphones. The delivery guy using it should call the customer. WaiMaiPay calls the clients as delivery guy is closer.</p>
+<p>It tracks the distance by GPS.</p>
+<hr>
+<p><a href="https://github.com/ahmetson/smartcontract-practice">https://github.com/ahmetson/smartcontract-practice</a></p>
+<p class="msg msg--warning">A side project I tried to make for the interns</p>
+<p>Learn by creating real projects.</p>
+<hr>
+<p>Blockchain part: <a href="https://github.com/ahmetson/element-words-smartcontracts">https://github.com/ahmetson/element-words-smartcontracts</a></p>
+<p>Game: <a href="https://github.com/ahmetson/element-words">https://github.com/ahmetson/element-words</a></p>
+<p>A demo for the Neo hackathon.</p>
+<p><a href="https://www.youtube.com/watch?v=hVdgSr93qtg">https://www.youtube.com/watch?v=hVdgSr93qtg</a></p>
+<p><a href="https://www.youtube.com/watch?v=YGLvEwzZU5c">https://www.youtube.com/watch?v=YGLvEwzZU5c</a></p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Israel vs Hamas: peaceful solution</title>
         <author>
@@ -273,156 +478,6 @@
 <h2><strong>Write the Whitepaper 2.0 for the profitable version of the RNG blockchain</strong></h2>
 <p><span style="font-weight: 400;">How do RNG blockchain nodes earn money? In the next version of the blockchain, this should be possible.</span></p>
 <p><br><br><br><br></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Conspect: Scavenge - blockchain game created with Cosmos SDK</title>
-        <author>
-            <name>Medet Ahmetson</name>
-        </author>
-        <link href="https://turkmenson.com/conspect-scavenge-blockchain-game-created-with-cosmos-sdk.html"/>
-        <id>https://turkmenson.com/conspect-scavenge-blockchain-game-created-with-cosmos-sdk.html</id>
-            <category term="technology"/>
-            <category term="cosmos-sdk"/>
-            <category term="blockchain-conspect"/>
-            <category term="blockchain"/>
-
-        <updated>2023-12-21T15:52:57+07:00</updated>
-            <summary>
-                <![CDATA[
-                    15 May 2021 Terrible tutorial. A lot of things are not clear. Now, I have to deep diving into the code itself. This tutorial is helpful to get a boilerplate.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p><em>15 May 2021</em></p>
-<p>Terrible tutorial. A lot of things are not clear. Now, I have to deep diving into the code itself. This tutorial is helpful to get a boilerplate.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>The Sandbox (SAND)</title>
-        <author>
-            <name>Medet Ahmetson</name>
-        </author>
-        <link href="https://turkmenson.com/the-sandbox-sand.html"/>
-        <id>https://turkmenson.com/the-sandbox-sand.html</id>
-            <category term="technology"/>
-            <category term="blockchain-review"/>
-            <category term="blockchain"/>
-
-        <updated>2023-12-21T15:50:47+07:00</updated>
-            <summary>
-                <![CDATA[
-                    14 May 2021 https://www.sandbox.game/ According to the whitepaper, the Sandbox's primary mission is to introduce blockchain technology in mainstream gaming successfully.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>14 May 2021</p>
-<p><a href="https://www.sandbox.game/">https://www.sandbox.game/</a></p>
-<p>According to the whitepaper, the Sandbox's primary mission is to introduce blockchain technology in mainstream gaming successfully.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>My Neighbor Alice (ALICE)</title>
-        <author>
-            <name>Medet Ahmetson</name>
-        </author>
-        <link href="https://turkmenson.com/my-neighbor-alice-alice.html"/>
-        <id>https://turkmenson.com/my-neighbor-alice-alice.html</id>
-            <category term="technology"/>
-            <category term="blockchain-review"/>
-            <category term="blockchain"/>
-
-        <updated>2023-12-21T15:49:25+07:00</updated>
-            <summary>
-                <![CDATA[
-                    14 May 2021 https://www.myneighboralice.com/ It is a multiplayer game where anyone can buy and own virtual islands, collect and build exciting items, and meet new friends.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p><em>14 May 2021</em></p>
-<p><a href="https://www.myneighboralice.com/">https://www.myneighboralice.com/</a></p>
-<p>It is a multiplayer game where anyone can buy and own virtual islands, collect and build exciting items, and meet new friends.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Axie Infinity (AXS)</title>
-        <author>
-            <name>Medet Ahmetson</name>
-        </author>
-        <link href="https://turkmenson.com/axie-infinity-axs.html"/>
-        <id>https://turkmenson.com/axie-infinity-axs.html</id>
-            <category term="technology"/>
-            <category term="blockchain-review"/>
-            <category term="blockchain"/>
-
-        <updated>2023-12-21T15:49:18+07:00</updated>
-            <summary>
-                <![CDATA[
-                    14 May 2021 https://axieinfinity.com/ It is a blockchain-based trading and battling game partially owned and operated by the players.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>14 May 2021</p>
-<p><a href="https://axieinfinity.com/">https://axieinfinity.com/</a></p>
-<p>It is a blockchain-based trading and battling game partially owned and operated by the players.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Ultra (UOS)</title>
-        <author>
-            <name>Medet Ahmetson</name>
-        </author>
-        <link href="https://turkmenson.com/ultra-uos.html"/>
-        <id>https://turkmenson.com/ultra-uos.html</id>
-            <category term="technology"/>
-            <category term="blockchain-review"/>
-            <category term="blockchain"/>
-
-        <updated>2023-12-21T15:49:10+07:00</updated>
-            <summary>
-                <![CDATA[
-                    14 May 2021 https://ultra.io/ A blockchain-based PC game distribution platform designed to provide both gamers and game developers with new opportunities. It consists of an ecosystem where gamers can buy games, play games, resell their used games and items.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p><em>14 May 2021</em></p>
-<p><a href="https://ultra.io/">https://ultra.io/</a></p>
-<p>A blockchain-based PC game distribution platform designed to provide both gamers and game developers with new opportunities. It consists of an ecosystem where gamers can buy games, play games, resell their used games and items.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Revv (REVV)</title>
-        <author>
-            <name>Medet Ahmetson</name>
-        </author>
-        <link href="https://turkmenson.com/revv-revv.html"/>
-        <id>https://turkmenson.com/revv-revv.html</id>
-            <category term="technology"/>
-            <category term="blockchain-review"/>
-            <category term="blockchain"/>
-
-        <updated>2023-12-21T15:49:03+07:00</updated>
-            <summary>
-                <![CDATA[
-                    14 May 2021 https://www.revvmotorsport.com/ It's the main cryptocurrency for the identical branded motorsports blockchain game titles produced by Animoca Brands.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>14 May 2021</p>
-<p><a href="https://www.revvmotorsport.com/">https://www.revvmotorsport.com/</a></p>
-<p>It's the main cryptocurrency for the identical branded motorsports blockchain game titles produced by Animoca Brands.</p>
             ]]>
         </content>
     </entry>
