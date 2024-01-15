@@ -3,12 +3,462 @@
     <title>Turkmenson</title>
     <link href="https://turkmenson.com/feed.xml" rel="self" />
     <link href="https://turkmenson.com" />
-    <updated>2023-12-27T12:55:53+07:00</updated>
+    <updated>2024-01-15T14:50:13+07:00</updated>
     <author>
         <name>Medet Ahmetson</name>
     </author>
     <id>https://turkmenson.com</id>
 
+    <entry>
+        <title>Ara</title>
+        <author>
+            <name>Medet Ahmetson</name>
+        </author>
+        <link href="https://turkmenson.com/ara.html"/>
+        <id>https://turkmenson.com/ara.html</id>
+            <category term="technology"/>
+            <category term="project"/>
+            <category term="ara"/>
+
+        <updated>2024-01-15T14:50:13+07:00</updated>
+            <summary>
+                <![CDATA[
+                    Computers are the best technology for expressing and exploring our minds. The result of expressing our thoughts through computers produces structured, precise information. This information has various names: All this information has unique characteristics: the computers or software could execute the data, including the conditions.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Computers are the best technology for expressing and exploring our minds. The result of expressing our thoughts through computers produces structured, precise information. This information has various names:</p>
+<ul>
+<li>Code</li>
+<li>Model (in machine learning)</li>
+<li>Program</li>
+<li>Software</li>
+<li>Smartcontract (in blockchain)</li>
+<li>Script</li>
+<li>Instructions</li>
+<li>Algorithm</li>
+<li>etc.</li>
+</ul>
+<p>All this information has unique characteristics: the computers or software could execute the data, including the conditions. That means they process the information partially depending on the condition. </p>
+<p>Computers could partially replicate our brain activity. It's not meant to replicate fully our brain to replace us in the future. It's not meant to delegate some of our brain activity to automate human tasks. The main goal of computers is to increase our brain activity, including our imagination.</p>
+<p>Analogously, consider our brain as the laptop hardware. Then the computers are the USB, which adds extra storage. The USBs are pluggable mobile but have less hardware capacity. But with the USB, we can share the data between multiple laptops.</p>
+<p>The ability of computers to share data over the internet is crucial. In analogy, the internet is the mobility and pluggable parameter of computers. Surprisingly, the original pioneers of computers haven't considered the internet part of computers.</p>
+<p>But why is the internet a crucial part of computers? Because software is a product of our thinking. For us, the most necessary aspect is to share our ideas. One person does not build ideas. It always relies on the ideas of other people. You need other ideas for the information; you need others not to reinvent the wheels but to use what others built as giants by simply improving their ideas. You need others who would help you to improve your idea. We may need to collaborate on complex ideas with others. Lastly, our inner child tells us to share what we know with others.</p>
+<p>Thus, computers mediate between people in real-time or from different eras to work on the idea. Software is meant to be created by people for other people. Even if it's not the code itself, the user of the software or the result of the software must be for other people.</p>
+<p>Thus, we need to understand the internet as the inter-connected software, where everyone can change and modify the software. Understanding the internet opens up the true potential of computers for us. Understanding the internet opens up new software that has not yet been seen worldwide.</p>
+<p>One potential kind of software is folk software. It's software created by one person. Then, it was improved over time by other people. It might shift from its original form. The second important aspect of folk software is that it has a general version and different variants per user or group of users.</p>
+<p>Consider, for example, video-sharing software, YouTube. If YouTube was folk software,  the current version would be generic. But every user might have YouTube with a different feature set. For example, some people would prefer to see a 10-star rating instead of the like buttons. Others would want to see the auto-pausing after a few seconds.</p>
+<p>Sadly, YouTube is not a folk software. It's an online service with full ownership belonging to Google. When you were using the software, how many times have you wished it had the feature but didn't? Maybe you were sending a request to the developers to add that feature? Sadly, a current industry driven by profit would add the feature if it aligns with the profit they get, not by what is needed for a specific user.</p>
+<p>Even when you use software offline, and want to adjust it, the current software requires deep technical skills that most of us lack.</p>
+<p>Ara helps to adjust the software that is interconnected to each other. Which means we can compose multiple software into something new. Ara also helps to discover and publish your ideas with other people. In other words, Ara makes all software interconnected, composable, and adjustable by any user with minimum technical skill.</p>
+<p>Ara tries to work with the existing software rather than build the ecosystem from scratch. Ara consists of three parts.</p>
+<p>The Meta protocol that makes apps self-explaining. The app could be written in any language or in any internet topology. However, the software must have an endpoint that describes what it's doing so that anyone can use it without knowing its API or documentation upfront.</p>
+<p>The second component of the Ara is the blockchain-based indexer of all apps worldwide. It also provides a payment system that helps to sort the programs by popularity and rewards the users whose ideas are used by others for profit.</p>
+<p>The last part of the Ara is the client. The client helps modify, publish, collaborate, or discover software on the internet. The client comes with an AI assistant that understands the meta protocol.</p>
+<hr>
+<p>When a remixed version of the music becomes more popular than the original song, it's fair to share the reward both for DJ and composer.</p>
+<p>In the same way if a user creates a variant of the software, and commercializes it, then we want to reward the original authors too. It's a matter of ethics not legal rights. </p>
+<p>In today's IT economy is like that. The unknown people dedicate their time to build an open-source software. Then, commercial companies build the software and become billionaire. With the ara we want to reward the open-source developers too.</p>
+<p>We want to make the economical model in a fair way. By fairness I mean, when an entrepreneur thinks of the commercial product, he shouldn't bother himself with the reward sharing, it's a psychologically implies his product is not his. At the same time, we want open-source software makers to earn a passive income. To solve it, we use the cryptocurrency in our indexer. And advised for all app makers to use the Ara cryptocurrency or backed by it cryptocurrency as the app's payment.</p>
+<p>This way, if user pays for the service, then ara makes sure that all other services depending on the service also get the share from the users. Using the crypto currency is advised but not required. Then what are the benefits for the commercial app makers?</p>
+<p>The indexer is what connects the client and the software with the meta protocol. It's more like a search engine, app store and DNS together. The most important part of the indexer is the recommendation system. There will be other softwares like the one that commercial app maker is creating, there will be another apps that is built on top of the commercial app. Thus, to make the software discoverable for more users, that software must be higher in the rank. And that ranking is defined using the payments. The higher the app traffic, the more discoverable it is.</p>
+<p>To prevent commercial apps from purchasing the traffic, we add additional method in our blockchain. Namely, we also look at the user's activity. The more they use the ara, the diverse is their app pool, the more weight it has in the software ranking. Of course it's the matter of the change as people constantly finds the weakens. The duty of updating the fairness in the recommendation system relies on the ara organization.</p>
+<p>Any indexer according to the rule must be open-source. And people may create a fork with better recommendation system. Thus, if the ara foundation makes something wrong, there are always people who can instantly replicate and create the better version. In short, there is no any final authoritive, everyone is replacable.</p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Ara leading ideas</title>
+        <author>
+            <name>Medet Ahmetson</name>
+        </author>
+        <link href="https://turkmenson.com/ara-leading-ideas.html"/>
+        <id>https://turkmenson.com/ara-leading-ideas.html</id>
+            <category term="project"/>
+            <category term="persona"/>
+            <category term="people"/>
+            <category term="me"/>
+            <category term="ara"/>
+
+        <updated>2024-01-15T08:27:12+07:00</updated>
+            <summary>
+                <![CDATA[
+                    My father wanted me to be an architect. He would bring 3ds Max, Photoshop and books that teaches those softwares. In Turkmenistan, architects earn a lot, and well respected in the society. And since childhood I was into the art, my father wanted me to&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>My father wanted me to be an architect. He would bring 3ds Max, Photoshop and books that teaches those softwares. In Turkmenistan, architects earn a lot, and well respected in the society. And since childhood I was into the art, my father wanted me to be architect and be respected in the society.</p>
+<p>But I didn't want to be an architect. My curiousity led me to learn how computers work. It was in late 2000s. Turkmenistan just opened the Internet for mass. But it was a mobile internet. Slow and very expensive. I didn't have access to the video courses. To read the web articles as it was expensive for the internet traffic.</p>
+<p>I also didn't know English very well. In my situation, the books with the smallest size (.djvu, .pdf) that covers topic in depth were ideal. </p>
+<p>So, I would learn programming by downloading books that were 3-6 megabytes in size in Russian language. And it was the books that are outdated. Books that would talk about Microsoft/Open-source wars, about operating systems such as OS 360/1, programming languages such as Cobol, Fortran and how C, C++ were great than them.</p>
+<p>Besides touching the history, I also grew up with their dream. </p>
+<p>When I was an intern in 2017, I saw how the company organized an event related to the Cryptocurrencies and Web3. But that made me confused. I knew what was web3 as the semantic web not something as data ownership.</p>
+<p>I knew AI not as the deep learning, but as the expert systems. I knew Steve Jobs not because of Iphone, but from 80s in their war with Microsoft.</p>
+<p>I was learning programming to earn a passive income. After every project, I learnt something new. About design, UX, market research, team work and so on. The lesson that I took is that, writing the app is just 25% of the work. Another 25% of the work is dedicated for the maintaining the app, another 25% for the markeeting, another 25% for the business operations, UI, and so on.</p>
+<p>Eventually Entrepreneurship start to drain me. I start to look for the purpose of the life. What is the meaning of the life? One of the books said to me, combine what you are good at and what do you want to do since you were a child. I wanted to write stories. I knew art and programming. Combining them together led me to start working in the game industry.</p>
+<p>The Ara is a result of my experience: learning design tools before programming, game engines, crypto, open-source and dream of early computer pioneers with what I grew up with.</p>
+<p>When I moved to China I got an unlimited internet traffic with WiFi. I tried video tutorials. But eventually inclined to the fundamental works. They are dry but covers the topics in a systematic way. My questions about purpose, who am I also led to the interest in the history, religion. But even then, I could get with the monographs rather than reading articles of the science popularizers.</p>
+<p>And until when I was 25, I was going with what books were telling me, as they are smarter than me. Only in 2020s I start to get my own opinion and build my own philosophy. Still, my teachers are respected by me.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Steve Jobs is not a role-model</title>
+        <author>
+            <name>Medet Ahmetson</name>
+        </author>
+        <link href="https://turkmenson.com/steve-jobs-is-not-a-role-model.html"/>
+        <id>https://turkmenson.com/steve-jobs-is-not-a-role-model.html</id>
+            <category term="persona"/>
+            <category term="people"/>
+
+        <updated>2024-01-15T08:00:12+07:00</updated>
+            <summary>
+                <![CDATA[
+                    I use Steve Jobs' own words: "Innovations lead to the innovations". His own company, his own products don't lead to the technical innovations. When you read the history, when there are no new ideas, but a sophistication of what was built, this indicates a decline&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>I use Steve Jobs' own words: "Innovations lead to the innovations".</p>
+<p>His own company, his own products don't lead to the technical innovations.</p>
+<p>When you read the history, when there are no new ideas, but a sophistication of what was built, this indicates a decline of the culture. A slow stagnation.</p>
+<p>If we value products like iPhone, MacBook for it's candy-crash like UI as the greatest thing in the technology, then it's clearly marks the stagnation of the culture.</p>
+<p>I use iPhone (my family bought me as a gift), it never lead me to build something with it. So for me neither Apple, neither Steve Jobs are respected nor role model.</p>
+<hr>
+<p>I think they have important in the popularization of the technology. Apple is like Chinese internet, it takes the app and packs it in a nice user interface.</p>
+<p>These kind of products should be respected by UX designers, not by technology companies. They should take Apple as a role model when it comes to the intuitive user experience when using the technology.</p>
+<p>To give you analogy, you can't say google is the better than Yahoo in terms of technology because Google has a minimalistic main page. But that is going on with the Apple.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Programming Language: Rust</title>
+        <author>
+            <name>Medet Ahmetson</name>
+        </author>
+        <link href="https://turkmenson.com/programming-language-rust.html"/>
+        <id>https://turkmenson.com/programming-language-rust.html</id>
+            <category term="technology"/>
+            <category term="rust"/>
+            <category term="programming language"/>
+
+        <updated>2024-01-10T02:11:06+07:00</updated>
+            <summary>
+                <![CDATA[
+                    Rust is a programming language designed by Mozilla Foundation. This is the notes on Rust Book. CLI applications: rustc rustup cargo cargo new &lt;project_name&gt; cargo build // --release for production cargo run cargo check //ensures code compiles but doesn't build the executable. fn main() {&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Rust is a programming language designed by Mozilla Foundation.</p>
+<p>This is the notes on <a href="https://doc.rust-lang.org/book/ch01-02-hello-world.html" target="_blank" rel="noopener noreferrer">Rust Book</a>.</p>
+<h2>Cheatsheet</h2>
+<p>CLI applications:</p>
+<p><code>rustc</code></p>
+<p><code>rustup</code></p>
+<p><code>cargo</code></p>
+<p><code>cargo new &lt;project_name&gt;</code></p>
+<p><code>cargo build // --release for production</code></p>
+<p><code>cargo run</code></p>
+<p><code>cargo check //ensures code compiles but doesn't build the executable.</code></p>
+<h2>Hello World</h2>
+<p><code>fn main() { <br>  println!("Hello, World!");<br>}</code></p>
+<p>Write the code above in <code>hello.rs</code>. Open the terminal, and type: <code>rustc ./hello.rs</code>.</p>
+<p>In rust, there must always be a primary function. It's a starting point of the application. The functions must always have curly braces.</p>
+<p>The<code> println!</code> is a macro. Macros always end with an exclamation mark.</p>
+<h2>Hello, Cargo</h2>
+<p>Cargo is the package and system manager for Rust. It handles downloading libraries, building the binary, and many other tasks.</p>
+<p>The libraries that the program uses are called dependencies.</p>
+<p>Create a cargo project using <code>cargo new &lt;project_name&gt;</code>.</p>
+<p>The cargo automatically creates version control files using Git as a default VCS.</p>
+<p>In the project structure using cargo, all files are stored in the <code>src </code>directory. The parameters of the program are defined in the <code>Cargo.toml</code> configuration file.</p>
+<p>Build the project using <code>cargo build </code>command. Run the program using <code>cargo run</code>.</p>
+<hr>
+<h1>Syntax</h1>
+<p>[<em>associative function</em>]</p>
+<p>The string is the standard data type in Rust. <code>::</code> in <code>String::new()</code> calls the associative function. The associative function is the function that is implemented on the type.</p>
+<p>[<code>enum</code>]</p>
+<p>Enumerations are called in short as <code>enum</code>, which is the type that can have multiple possible states. We call each possible state a variant.</p>
+<p> </p>
+<p>[<em>crate</em>]</p>
+<p>The crate is a collection of rust files. </p>
+<p> </p>
+<pre class="playground"><code class="language-rust hljs hide-boring"><span class="hljs-keyword">let</span> a: [<span class="hljs-built_in">i32</span>; <span class="hljs-number">5</span>] = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>];
+</code><br>let a: [i32; 5] = [1, 2, 3, 4, 5];<br>let a: (i32, string, char) = (23, "hello", 'z');</pre>
+<p>Slices are contiguous sequences of elements in a collection rather than a whole array. It's a kind of a reference.</p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Notes on &quot;Practical deep learning&quot;: foundation</title>
+        <author>
+            <name>Medet Ahmetson</name>
+        </author>
+        <link href="https://turkmenson.com/notes-on-practical-deep-learning-foundation.html"/>
+        <id>https://turkmenson.com/notes-on-practical-deep-learning-foundation.html</id>
+            <category term="technology"/>
+            <category term="ai-notes"/>
+            <category term="ai"/>
+
+        <updated>2023-12-29T00:29:40+07:00</updated>
+            <summary>
+                <![CDATA[
+                    While trying to launch the model, I discovered the book was outdated. Now, we took video lessons more than the book chapters. These are the notes on Lesson 3: How Neural Networks work and how to optimize it. Run notebooks in the /clean folder from the&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p class="msg msg--highlight  msg--warning">While trying to launch the model, I discovered the book was outdated. Now, we took video lessons more than the book chapters.</p>
+<p>These are the notes on Lesson 3: How Neural Networks work and how to optimize it.</p>
+<h2>How to learn?</h2>
+<ol>
+<li>Watch the lessons</li>
+<li>(Read the chapters)</li>
+<li>Run notebooks and experiment.</li>
+<li>Reproduce results</li>
+<li>Repeat with different dataset</li>
+</ol>
+<p class="msg--info msg--highlight msg">Run notebooks in the <a href="https://github.com/fastai/fastbook/tree/master/clean" target="_blank" rel="noopener noreferrer">/clean</a> folder from the book repo.</p>
+<h2>About exported model</h2>
+<p>The exported model '.pkl' has two things.</p>
+<ol>
+<li>Preprocessing steps to turn data into a model: <code>DataLoader</code>part.</li>
+<li>Trained model available in <code>.model</code>parameter. It's a tree of multiple models for each neural layer. The submodules are available by <code>model.get_submodule()</code>method.</li>
+</ol>
+<p class="msg msg--highlight   ">@interact(a=1, b=2, c=3) is the particular keyword for jupyter to make interactive parameters.</p>
+<h1>How does Neural Network work?</h1>
+<p>A neural network tries to fit a function to data. The neural network adjusts the function parameters until the function's output is not close to the data.</p>
+<p>After adjusting the parameter, a loss function is used to see how close the function output is to the data. The <code>mean_mean_error: ((output - data)^2).mean()</code>is the most popular loss function.</p>
+<p>To automate adjustment by a loss function, we could calculate the derivative. Derivative checks how much parameter value increase increases the output. And how far it is from the data. The distance from the data to the function output is called a <code>slope</code> or <code>gradient</code>.</p>
+<p class="msg msg--highlight ">Python tip: <code>func(*params)</code>. The * expands the parameters into function arguments as a, b, and c.</p>
+<p>The <code>PyTorch</code> library has built-in derivative calculating functions. This function is called a <code>tensor.backward()</code>. It's the method of the tensors.</p>
+<p>How to enable derivative:</p>
+<ol>
+<li>Create a tensor: <code>abc = torch.tensor([1.5, 1.5, 1.5])</code> . For example, it created a rank one tensor.</li>
+<li>Enable derivative calculation in the tensor: <code>abs.requires_grad_()</code>.</li>
+<li>Calculate loss. Then, calculate a derivative using <code>.backward()</code>. This function adds the <code>.grad</code> property to the tensor with the slope derivative.</li>
+</ol>
+<p>Once the gradient value is available, we can iterate multiple times by adjusting parameters by the slope number.</p>
+<p>This loop is called <strong>optimization</strong>, which means decreasing the loss value.</p>
+<h2>Example</h2>
+<p>Assume we have random dots on the graph for the <em>c*x^2 + b*x + a </em>equation. Let the function find the values for <em>a, b,</em> and <em>c</em>. </p>
+<p>We have multiple dots for each part, not one. Because if there was one dot, we could draw a line by them.</p>
+<p>Initially, we picked some random numbers as the starting point. Then, we calculate the loss using <code>mean_square_error </code>by passing random dots and our initial values.</p>
+<p>Assume that the numbers are converted into tensors with enabled derivatives. Finally, we adjust the values until the gradient doesn't decrease sufficiently.</p>
+<h2>ReLu</h2>
+<p><strong>Relu</strong> is a short name for <strong>Rectified Linear:</strong></p>
+<p><code>def rectified_linear(m, b, x):<br>  y = m * x + b<br>  return torch.clip(y, 0.)</code></p>
+<p>This function is the single function whose negative value is turned into 0.</p>
+<p>Combining multiple relationships creates a flexible function that can solve almost any problem. </p>
+<p>This is pretty much the foundation on which all neural networks are built.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>OpenZeppelin in Preda programming language</title>
+        <author>
+            <name>Medet Ahmetson</name>
+        </author>
+        <link href="https://turkmenson.com/openzeppelin-in-preda-programming-language.html"/>
+        <id>https://turkmenson.com/openzeppelin-in-preda-programming-language.html</id>
+            <category term="technology"/>
+            <category term="project"/>
+            <category term="preda-programming-language"/>
+            <category term="blockchain"/>
+
+        <updated>2023-12-27T16:52:48+07:00</updated>
+            <summary>
+                <![CDATA[
+                    This page describes porting the OpenZeppelin contracts into a PREDA model. The OpenZeppelin contracts consist of multiple parts: Library V5, Upgradeable Plugin, and Subgraph. This is the porting of some parts of version 5. The Upgradeable plugin is ported on its own later. The subgraph&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>This page describes porting the OpenZeppelin contracts into a PREDA model.</p>
+<p>The OpenZeppelin contracts consist of multiple parts: <a href="https://docs.openzeppelin.com/contracts/5.x/" target="_blank" rel="noopener noreferrer">Library V5</a>, <a href="https://docs.openzeppelin.com/upgrades-plugins/1.x/" target="_blank" rel="noopener noreferrer">Upgradeable Plugin</a>, and <a href="https://docs.openzeppelin.com/subgraphs/0.1.x/" target="_blank" rel="noopener noreferrer">Subgraph</a>.</p>
+<p>This is the porting of some parts of version 5. The Upgradeable plugin is ported on its own later. The subgraph is not ported, as it's out of the smart contract programming scope.</p>
+<p>The OpenZeppelin uses semantic versioning to release new changes. This is the porting of the version 5, the latest by the end of 2023.</p>
+<h2>Parts and what is not ported</h2>
+<p>The OpenZeppelin smart contracts or utilities around them are grouped into various categories. </p>
+<ul>
+<li>Wizard - Interactive smartcontract generator.</li>
+<li>Access Control - utility to limit function calls.</li>
+<li>Tokens - NFT, Cryptocurrency, etc.</li>
+<li>Governance - Decentralized Autonomous Organization (DAO) tools.</li>
+<li>Utils - additional useful smartcontracts to use in your projects: Cryptography, Math, Introspection, and many more.</li>
+</ul>
+<p>We don't implement a wizard, as it's out of the smart contract programming scope.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>The Preda Guide</title>
+        <author>
+            <name>Medet Ahmetson</name>
+        </author>
+        <link href="https://turkmenson.com/the-preda-guide.html"/>
+        <id>https://turkmenson.com/the-preda-guide.html</id>
+            <category term="technology"/>
+            <category term="project"/>
+            <category term="programming language"/>
+            <category term="preda-programming-language"/>
+
+        <updated>2023-12-29T19:47:21+07:00</updated>
+            <summary>
+                <![CDATA[
+                    Preda is a programming language to write distributed intelligent contracts that can execute transactions in parallel. If you are unfamiliar with the smart contract or want to see what Preda is, look at Programming Language: Preda, where I wrote some notes about it. This page&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Preda is a programming language to write distributed intelligent contracts that can execute transactions in parallel. If you are unfamiliar with the smart contract or want to see what Preda is, look at <a href="https://turkmenson.com/programming-language-preda.html" target="_blank" rel="noopener noreferrer">Programming Language: Preda</a>, where I wrote some notes about it.</p>
+<p>This page describes the projects I wrote in the Preda programming language: "<a href="https://lu.ma/co44nv4x" target="_blank" rel="noopener noreferrer">Preda Scale-out Smart Contracts Hackathon</a>".</p>
+<p>The best way to learn a technology is by creating something. I will also provide general lessons and valuable resources that helped me write something on Preda.</p>
+<h1>Brainstorming</h1>
+<p>For the hackathon, we need some ideas to work on. The project will benefit from the parallel execution.</p>
+<h2>Invalid directions</h2>
+<h3>Top Smartcontracts</h3>
+<p>As Preda was targeting top smartcontracts, let's take inspiration from them. However, complete intelligent contracts are all for DeFi. DeFi doesn't solve real-world problems, so let's skip it. </p>
+<h3>Top Transactions</h3>
+<p>The Bridges and Exchanges load the highest traffic on Ethereum. These smartcontracts are easy to implement, so let's skip it.</p>
+<h2>Right direction</h2>
+<p>The best way is to implement something impossible with the current smartcontracts and only available with the Preda's parallel execution.</p>
+<p>But before working on it, let's create small intelligent contracts to have an understanding of the program in Preda.</p>
+<p>And lastly, we are always relying on the libraries with the best practices that save us a lot of headaches.</p>
+<p>So, here is the list of the projects that I will be working on:</p>
+<ol>
+<li>(Library 1) The OpenZeppelin library is a state-of-the-art library for Ethereum. Let's convert it to Preda to bootstrap the creation of smart contracts.<br><br></li>
+<li>(Library 2) OpenZeppelin Upgradables: This is an interesting part of creating an upgradable contract. Maybe upgrade a certain state, rather than all smartcontract?</li>
+<li>(Small project 1) Mistransfer: a project that recovers tokens sent to a wrong smart contract. I wrote it for a Chainlink hackathon. And I believe it should be everywhere. So, let's implement it.</li>
+<li>(Small project 2) Malpie: a loyalty program for apps where users provide their data in exchange for a product discount.</li>
+<li>(Project)Where does Preda outshine? What kind of app is it possible to make on the blockchain? More in the next section.</li>
+</ol>
+<h3>Real-time app</h3>
+<p>Parallel execution enables real-time applications that were not possible on the blockchain before. What kind of real-time app? Do you know the original motivation behind the creation of the Ethereum?</p>
+<p>According to the legends, Vitalik was playing World of Warcraft, and one day, Blizzard Studio decided to remove one of his favorite game items. Outraged, he created a distributed platform where "Code is a law." It's a beautiful legend, so let it be.</p>
+<p>However, Ethereum doesn't allow the creation of a game such as World of Warcraft. But with Preda, we can create it. Each popular multiplayer, real-time game is a session. With Preda, we can make each session a scope with access from the users in that session. This allows, for example, to create a Layer 2 on Ethereum with the PREDA model. Fine-tuned, it could keep thousands of users online with less technical cost than without Preda.</p>
+<hr>
+<h1>Preda tricks</h1>
+<p>return type is inserted in the beginning after the "function" keyword.</p>
+<p>to make the contract read-only, replace "view" with "const."</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Programming Language: Preda</title>
+        <author>
+            <name>Medet Ahmetson</name>
+        </author>
+        <link href="https://turkmenson.com/programming-language-preda.html"/>
+        <id>https://turkmenson.com/programming-language-preda.html</id>
+            <category term="technology"/>
+            <category term="programming language"/>
+            <category term="preda-programming-language"/>
+            <category term="blockchain-conspect"/>
+            <category term="blockchain"/>
+
+        <updated>2023-12-29T19:57:20+07:00</updated>
+            <summary>
+                <![CDATA[
+                    In the middle of 2023, I joined a Preda hackathon that kicked out on 18th November 2023. I already have an interest in programming languages. So, I will use this hackathon to try out a new language. But what is Preda programming language? Official website:&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>In the middle of 2023, I joined a Preda hackathon that kicked out on 18th November 2023.</p>
+<p>I already have an interest in programming languages. So, I will use this hackathon to try out a new language. But what is Preda programming language?</p>
+<h1>The Language Specification</h1>
+<p>Official website: <a href="https://www.preda-lang.org/pdf/preda-model-sole.pdf" target="_blank" rel="noopener noreferrer">https://www.preda-lang.org/</a></p>
+<p>Preda is a programming language used to increase transaction throughput for applications on blockchain platforms.</p>
+<h2>Preface</h2>
+<p>The applications in the blockchain platforms are called smartcontracts. Ethereum invented intelligent contracts, the first blockchain platform, in 2015.</p>
+<p>Even in 2023, Ethereum is the most popular blockchain platform, setting the global trends in the cryptocurrency ecosystem. The Ethereum blockchain network has the Ethereum Virtual Machine (EVM), where smart contracts are executed. The platform provides various programming languages to write a smartcontract targeting EVM.</p>
+<p>The most popular programming language is Solidity: <a href="https://soliditylang.org/">https://soliditylang.org/</a>.</p>
+<p>However, EVM could process a single transaction simultaneously, which means a considerable delay during the high traffic.</p>
+<p>There are many ways to solve the scalability issues. Most of the blockchain trend goes into building a blockchain of blockchains: Cosmos, Polkadot, Layer 2 blockchains, etc.</p>
+<p>Preda is taking an unusual direction to increase scalability by creating distributed intelligent contracts.</p>
+<h2>Distributed Smartcontracts</h2>
+<p> To understand a distributed smartcontract, think about a popular web application. Imagine a web application that serves thousands of requests at a time. How would you scale the server to serve multiple requests?</p>
+<p>The intuitive way to execute multiple requests simultaneously is by creating multiple copies of the application (as a cluster) that run the requests in parallel. But there is a better approach. You could split the app into smaller inter-connected parts rather than creating a copy of the same code. Then, create a cluster of the parts that have a heavy load. When an app consists of multiple inter-connected parts running in parallel, this app is called a distributed application.</p>
+<p>Almost all modern web applications are distributed with at least a client, server, and database.</p>
+<p>Similarly, a distributed smart contract consists of multiple parts that execute the transactions together.</p>
+<p>As I mentioned in the Preface, the current EVM supports a single transaction simultaneously. So, Solidity is created for a single transaction as well.</p>
+<p>To create distributed intelligent contracts, we need a blockchain that supports distributed systems and a programming language to execute and make asynchronous calls between various allocated parts.</p>
+<p>Even in modern EVM, you can split an app into multiple intelligent contracts. But their interaction is synchronous, so it blocks all requests until other smart contracts won't complete the execution.</p>
+<p>Contract A could send request A to contract B by making the requests asynchronous. Meanwhile, execute the request B from the transaction pools.</p>
+<p>Preda is the programming language used to make asynchronous calls between smart contracts, which solves the second problem for scalable execution.</p>
+<figure class="post__image"><img loading="lazy"  src="https://dioxide.network/img/model-2.png" alt="" width="959" height="605" data-is-external-image="true"></figure>
+<p><em>From dioxide.network</em></p>
+<p>But why was Preda invented?</p>
+<p>This is a Smartcontract.</p>
+<h2>Motivation behind Preda</h2>
+<p>As in most aspects of social interactions, the top 1% of the services get the majority of the traffic. So, scalability is needed for them.</p>
+<figure class="post__image"><img loading="lazy"  src="https://turkmenson.com/media/posts/30/top-20-gas-consuming-smart-contracts-30d.png" alt="" width="2401" height="1260" sizes="100vw" srcset="https://turkmenson.com/media/posts/30/responsive/top-20-gas-consuming-smart-contracts-30d-xs.png 300w ,https://turkmenson.com/media/posts/30/responsive/top-20-gas-consuming-smart-contracts-30d-sm.png 480w ,https://turkmenson.com/media/posts/30/responsive/top-20-gas-consuming-smart-contracts-30d-md.png 768w ,https://turkmenson.com/media/posts/30/responsive/top-20-gas-consuming-smart-contracts-30d-lg.png 1024w ,https://turkmenson.com/media/posts/30/responsive/top-20-gas-consuming-smart-contracts-30d-xl.png 1360w ,https://turkmenson.com/media/posts/30/responsive/top-20-gas-consuming-smart-contracts-30d-2xl.png 1600w"></figure>
+<p>Source: <a href="https://www.theblock.co/data/on-chain-metrics/ethereum/top-20-gas-consuming-smart-contracts-30d">https://www.theblock.co/data/on-chain-metrics/ethereum/top-20-gas-consuming-smart-contracts-30d</a></p>
+<p>Just look at Uniswap, which has about the 18th transactions, while Scroll has 2 thousand transactions. All other two million transactions deployed on Ethereum get less than 2000 transactions.</p>
+<h2>Notes on specification</h2>
+<p>Preda is a new programming language that extends Solidity by adding asynchronous calls between intelligent contracts.</p>
+<p><em>To support such kinds of smart contracts, the Preda team also created a blockchain network for that: <a href="https://dioxide.network/">https://dioxide.network/</a></em></p>
+<p>The Preda programming language specification Old: <a href="https://www.preda-lang.org/pdf/preda-model-sole.pdf">https://www.preda-lang.org/pdf/preda-model-sole.pdf</a></p>
+<p>The Preda programming language specification: <a href="https://preda-lang.org/pdf/PREDA_Model_as_an_Experimental_New_Smart_Contract_Language.pdf" target="_blank" rel="noopener noreferrer">https://preda-lang.org/pdf/PREDA_Model_as_an_Experimental_New_Smart_Contract_Language.pdf</a></p>
+<p>Here are the notes I took by highlighting the critical parts of Preda.</p>
+<p>Preda stands for <strong>P</strong>arallel <strong>R</strong>elay <strong>E</strong>xecution <strong>D</strong>istributed <strong>A</strong>rchitecture. Preda introduces two models:</p>
+<ul style="list-style-type: circle;">
+<li>Programmable Scope: an isolated state of the smartcontract. Define the scope by data access pattern, which narrows and minimizes the data dependency between the states.</li>
+<li>Asynchronous Function Relay: a transaction logic that moves execution from one programmable scope to another. The function relay is defined with the explicit data dependency.</li>
+</ul>
+<p>In Solidity on Ethereum, the smartcontracts are defined as a set of variables (state) and functions (transaction functions). The state and functions are described in the global scope. However, it presents two significant challenges in scaling intelligent contracts.</p>
+<p>1. Partitioning the state requires understanding the data access patterns associated with the state variables. The Preda solves it by introducing a Programmable Contract Scope (κ-scope).</p>
+<p>2. A function defined on a global scope requires the availability of all functions and state variables. The Asynchronous Functional Relay (λ-relay) narrows the scope for a function to execute. The λ-relay decomposes the execution of k-scopes in the order of data dependency.</p>
+<p>In Preda, when invoking a function, it must provide a <em>target k-scope</em>, an analogy '<em>this</em>' pointer in C++.</p>
+<h3>Special k-Scopes</h3>
+<p>Engine Scopes = φθ(i): one instance of k-scope built in for each instance of the execution engine to represent a scope available for immediate read/write by any function executing the current execution engine. The engine scope is not allowed to be the target of λ-relay nor be referred to by specifying θ(i). The variables and functions in the engine scope can be accessed only by the i-th engine.</p>
+<p>Global Scopes =  φΩ: a built-in k-scope that logically singletones the entire network.</p>
+<p>PREDA model strictly prohibits referring to a specific instance of an execution engine or making assumptions on the underlying configuration (for example,<em> the number of execution engines</em>).</p>
+<p>In PREDA, the scopes are defined by fine-grained boundaries of contract states. The actual partitioning strategy is left to the hosting execution engine.</p>
+<h3>Relaying</h3>
+<p>A function initiating a transaction must trigger a λ-relay to execute on another k-scope. The λ-relay is converted into a relay transaction by the host. The relay transaction will be passed to the memory pool as an unordered pending transaction in the destination engine.</p>
+<p>Global scope transactions will be executed first before conducting an engine scope.</p>
+<p>Cross-contract invocation can be carried out immediately without doing a relay transaction.</p>
+<h3>Syntax</h3>
+<p>State variable defined and instantiated in a k-scope as:</p>
+<p><code>var_type @scope var_name;</code></p>
+<p>The <code>@scope</code> specifies a k-scope. It can be:</p>
+<ul>
+<li><code>@global</code>, which is by default, thus can be omitted.</li>
+<li><code>@engine</code>, for engine scopes.</li>
+<li><code>@address</code> or <code>@uint</code>: a keyed k-scope based on the Solidity elementary type name.</li>
+</ul>
+<p>Functions in the k-scope are always defined as:</p>
+<p><code>function fun_name(arg_type arg,..)<br>        @scope modifiers returns (ret_type) {}</code></p>
+<p>The <code>@scope</code> values are identical to the variable definition.</p>
+<p>In the destination k-scope, the target scope and global variables are merged and available as read-only variables. Symbols defined in the current engine are available for read and write.</p>
+<p><code>relay @key (var1, var2, ...) {}<br> relay @global (var1, var2, ..) {}</code></p>
+<p>The above code defines a relay transaction to continue the execution in another scope. The <code>relay </code>defines a lambda function that is executed in the destination scope.</p>
+<p><code>// scope a<br> relay func_name_k(var1, var2);<br> // scope b<br> function func_name_k(var1, var2) @scope public {}</code></p>
+<p>Besides passing a lambda function, Preda can also call a named function as defined above. The named functions must be public.</p>
+<p>The named transaction could be a cross-contract call as well as:</p>
+<p><code>relay @key ExtContr(a_addr).named_func_k(var1, var2);<br> relay ExtContr(a_addr).named_func_k(var1, var2);</code></p>
+<p>Here, the <code>@key</code> is defining the scope of the <code>ExtContr</code>.</p>
+<p>The mappings are defined as:</p>
+<p><code>mapping&lt;type =&gt; type&gt; @scope var_name;</code></p>
+<p>Note that any current Solidity smartcontract can be compiled into Preda as is. In this case, all variables and functions will be in the global scope. The global scope is not scalable; therefore, the design goal of the developers is to minimize the global scope.</p>
+<h3>Potential Execution Engine</h3>
+<ul>
+<li>Multi-core single node.</li>
+<li>Sharded node</li>
+<li>Multiple Single Nodes across the internet</li>
+</ul>
+<hr>
+<p>The guideline on how to use Preda is described on Preda Guideline.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Turkmens are descendants of Oghuzes and Persians?</title>
         <author>
@@ -20,7 +470,7 @@
             <category term="people"/>
             <category term="history"/>
 
-        <updated>2023-12-27T12:55:53+07:00</updated>
+        <updated>2023-12-27T12:58:12+07:00</updated>
             <summary>
                 <![CDATA[
                     Turkmen are primarily descendants of Iranian nomads who lived between the Aral Sea and the Caspian Sea. When you are learning the history of a nation, you do a comprehensive analysis of the country from all aspects: tradition, language, and anthropology. Most people who talk&hellip;
@@ -123,351 +573,6 @@
 <div> </div>
 </div>
 </div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Notes on &quot;Practical deep learning&quot;: launching</title>
-        <author>
-            <name>Medet Ahmetson</name>
-        </author>
-        <link href="https://turkmenson.com/notes-on-practical-deep-learning-launching.html"/>
-        <id>https://turkmenson.com/notes-on-practical-deep-learning-launching.html</id>
-            <category term="technology"/>
-            <category term="ai-notes"/>
-            <category term="ai"/>
-
-        <updated>2023-12-22T16:41:47+07:00</updated>
-            <summary>
-                <![CDATA[
-                    Chapter 2: Production Start with the objective when designing your model. For example, Google started with the objective: "What is the user's main objective in typing in a search query?" This led to the aim to "show the most relevant search result." The next step&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <h2>Chapter 2: Production</h2>
-<p>Start with the objective when designing your model.</p>
-<p>For example, Google started with the objective: "<em><span style="text-decoration: underline;">What is the user's main objective in typing in a search query?</span></em>" This led to the aim to "<span style="text-decoration: underline;"><em>show the most relevant search result.</em></span>"</p>
-<p>The next step is to determine what actions you can take to achieve the objective. In Google's case, it was ranking search results.</p>
-<p>The third step is determining what new data you need for the actions. In Google's case, what new data would they need to produce such a ranking?</p>
-<p>They realized that the implicit information regarding which pages linked to which other page could be useful for this purpose.</p>
-<p>We begin thinking about building a predictive model after these three steps. The objective, levers, the data we have, and the data we need determine the model we make. The models will take the levers and uncontrollable variables as their inputs; the output can be combined to predict the final state of the objective.</p>
-<h3>Recap by answering the questions</h3>
-<ol>
-<li>If the images for the bear classifier are from the game, then the app won't work because it was trained with the photo of the real bears.</li>
-<li>The text models cannot understand the semantics. This could lead to incorrect predictions.</li>
-<li>Text models could be used to troll the internet to spread disinformation.</li>
-<li>Usage of AI doesn't guarantee 100% results. It's especially critical with the medical reports. One solution is to work en-par with the people. The highly predictive outputs could be automated. For less predicted outcomes, we can do a manual check.</li>
-<li>The AI is good at high cardinality tabular data. The high cardinality means it's something that contains ample discrete choices.</li>
-<li>The recommendation systems work with user-generated behaviors. It recommends similar products from other sales. But it doesn't mean users didn't see them or may want something others didn't pick yet.</li>
-<li>Drivetrain approach: a) define an objective. b) define actions to reach the objective. c) define the data you need for the actions.</li>
-<li>Drivetrain approach for the video recommendation system: a) keep users in the platform. b) find liked videos like this from people of similar taste. c) create a data of liked data.</li>
-<li>The DataLoader class prepares data for training from unprepared data.</li>
-<li>To create a DataLoader, we need four things: a) What kind of data are we working with: images and text? b) How do you get those data: from files, CSV, or SQL? c) How do you label the items by filename? d) How to create a validation set: split items randomly by a seed.</li>
-<li>The splitter parameter of DataLoader describes how to get the validation set from the items list.</li>
-<li>The splitter takes two arguments: the percentage of items in the validation set and a seed to generate a random list.</li>
-<li>To determine independent variables, we use X. To represent dependent variables, we use Y.</li>
-<li>When images have different sizes, we need to normalize them—crop, pad, or squish.</li>
-<li>Data augmentation creates variants of the item by applying transforming functions. It helps to increase the amount of training set.</li>
-<li>Item transformers apply a function to each data. Batch transformers use the function of a whole batch.</li>
-<li>The confusion matrix shows a table of the training results. It helps to debug the data we used for training.</li>
-<li>The export function saves the architecture and model parameters together.</li>
-<li>To use a prediction model instead for training is called inference.</li>
-<li>IPython widgets are GUI components combining JavaScript and Python codes.</li>
-<li>we may use CPU in production since we work with one item at a time. In training, we may use GPU to accelerate the process.</li>
-<li>If a model is on a server, then there is a risk of working with confidential user data. Or network latency may slow down the prediction.</li>
-<li>the camera might capture the bears from different angles for a bear classifier, but it didn't work with the night vision. The camera may have low resolution.</li>
-<li>Out of domain is when an image for inference is not in a category of images we used for training.</li>
-<li>The domain shift is when the type of data changes over time.</li>
-<li>Three deployment process steps: a) export model for inference. b) create a UI. c) host the model.</li>
-</ol>
-<hr>
-<p>Objective: Understand the text in depth. Users should not be distracted.</p>
-<p>Action: Track all words users encounter.</p>
-<p>Then, get the description and insert it into the context. If it's a link, get a summary and add it. </p>
-<p>Data: track all words the user knows. Track how often he read and keep the terminology until it won't increase in appearance.</p>
-<p>What should happen if it went out? Everyone on the internet uses it.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Programming Language: T</title>
-        <author>
-            <name>Medet Ahmetson</name>
-        </author>
-        <link href="https://turkmenson.com/programming-language-t.html"/>
-        <id>https://turkmenson.com/programming-language-t.html</id>
-            <category term="project"/>
-            <category term="programming language"/>
-
-        <updated>2023-12-21T18:36:29+07:00</updated>
-            <summary>
-                <![CDATA[
-                    https://github.com/ahmetson/tpl A programming language with the Turkmen language syntax.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p><a href="https://github.com/ahmetson/tpl">https://github.com/ahmetson/tpl</a></p>
-<p>A programming language with the Turkmen language syntax.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Programming Language: Rigidity</title>
-        <author>
-            <name>Medet Ahmetson</name>
-        </author>
-        <link href="https://turkmenson.com/programming-language-rigidity.html"/>
-        <id>https://turkmenson.com/programming-language-rigidity.html</id>
-            <category term="project"/>
-            <category term="programming language"/>
-
-        <updated>2023-12-21T18:35:50+07:00</updated>
-            <summary>
-                <![CDATA[
-                    https://github.com/ahmetson/rigidity A secure version of Solidity to write smartcontracts. It's a type driven inspired by programming languages such as Idris.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p><a href="https://github.com/ahmetson/rigidity">https://github.com/ahmetson/rigidity</a></p>
-<p>A secure version of Solidity to write smartcontracts.</p>
-<p>It's a type driven inspired by programming languages such as Idris.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Game: Para-para</title>
-        <author>
-            <name>Medet Ahmetson</name>
-        </author>
-        <link href="https://turkmenson.com/game-para-para.html"/>
-        <id>https://turkmenson.com/game-para-para.html</id>
-            <category term="project"/>
-            <category term="game"/>
-
-        <updated>2023-12-21T18:26:59+07:00</updated>
-            <summary>
-                <![CDATA[
-                    https://ahmetson.github.io/para-para/ A demo of the para para. A new gameplay for the match 3. Match the elements and collect the chemical elements faster than the opponent. Prevent the opponent from containing his chemical elements if he is closer.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p><a href="https://ahmetson.github.io/para-para/">https://ahmetson.github.io/para-para/</a></p>
-<p>A demo of the para para. A new gameplay for the match 3.</p>
-<p>Match the elements and collect the chemical elements faster than the opponent. Prevent the opponent from containing his chemical elements if he is closer.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Game: Serdar</title>
-        <author>
-            <name>Medet Ahmetson</name>
-        </author>
-        <link href="https://turkmenson.com/game-serdar.html"/>
-        <id>https://turkmenson.com/game-serdar.html</id>
-            <category term="project"/>
-            <category term="game"/>
-
-        <updated>2023-12-21T18:30:31+07:00</updated>
-            <summary>
-                <![CDATA[
-                    Demo: https://github.com/ahmetson/serdar Source Code: https://github.com/ahmetson/serdar-source A mobile educational game that teaches math. There was a Turkmen village under the mountains. An ally of the town called out for a defense as all men went to the rescue. Another village belonged to the wealthiest man in&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>Demo: <a href="https://github.com/ahmetson/serdar">https://github.com/ahmetson/serdar</a></p>
-<p>Source Code: <a href="https://github.com/ahmetson/serdar-source">https://github.com/ahmetson/serdar-source</a></p>
-<p>A mobile educational game that teaches math. </p>
-<h2>Story</h2>
-<p>There was a Turkmen village under the mountains. An ally of the town called out for a defense as all men went to the rescue.</p>
-<p>Another village belonged to the wealthiest man in the world. He loved the daughter of the Chief. But the village Chief's daughter didn't respond to the richest man's love. </p>
-<p>When all the men left the village, the world's richest man attached the village to take the girl by force.</p>
-<p>The village sent a message to the men. A group of men led by Serdar returned to the town as soon as possible.</p>
-<p>The wealthiest man mercenaries to block the Serdar while catching the village with his force.</p>
-<h2>Gameplay</h2>
-<p>To not spend his time, help Serdar to choose the right path from multiple routes.</p>
-<p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Archived projects</title>
-        <author>
-            <name>Medet Ahmetson</name>
-        </author>
-        <link href="https://turkmenson.com/archived-projects.html"/>
-        <id>https://turkmenson.com/archived-projects.html</id>
-            <category term="project"/>
-
-        <updated>2023-12-21T18:33:56+07:00</updated>
-            <summary>
-                <![CDATA[
-                    WaiMaiPay Demo: https://github.com/ahmetson/wai-mai-pai Backend Source Code: https://github.com/ahmetson/api-wmp This was the project I was working on in 2017. WaiMaiPay is a delivery man's app that notifies the clients as it gets closer. Sometimes, people are not checking their smartphones. The delivery guy using it should call&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p><strong>WaiMaiPay</strong></p>
-<p>Demo: <a href="https://github.com/ahmetson/wai-mai-pai">https://github.com/ahmetson/wai-mai-pai</a></p>
-<p>Backend Source Code: <a href="https://github.com/ahmetson/api-wmp">https://github.com/ahmetson/api-wmp</a></p>
-<p class="msg msg--warning">This was the project I was working on in 2017.</p>
-<p>WaiMaiPay is a delivery man's app that notifies the clients as it gets closer. Sometimes, people are not checking their smartphones. The delivery guy using it should call the customer. WaiMaiPay calls the clients as delivery guy is closer.</p>
-<p>It tracks the distance by GPS.</p>
-<hr>
-<p><a href="https://github.com/ahmetson/smartcontract-practice">https://github.com/ahmetson/smartcontract-practice</a></p>
-<p class="msg msg--warning">A side project I tried to make for the interns</p>
-<p>Learn by creating real projects.</p>
-<hr>
-<p>Blockchain part: <a href="https://github.com/ahmetson/element-words-smartcontracts">https://github.com/ahmetson/element-words-smartcontracts</a></p>
-<p>Game: <a href="https://github.com/ahmetson/element-words">https://github.com/ahmetson/element-words</a></p>
-<p>A demo for the Neo hackathon.</p>
-<p><a href="https://www.youtube.com/watch?v=hVdgSr93qtg">https://www.youtube.com/watch?v=hVdgSr93qtg</a></p>
-<p><a href="https://www.youtube.com/watch?v=YGLvEwzZU5c">https://www.youtube.com/watch?v=YGLvEwzZU5c</a></p>
-<p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Israel vs Hamas: peaceful solution</title>
-        <author>
-            <name>Medet Ahmetson</name>
-        </author>
-        <link href="https://turkmenson.com/israel-vs-hamas-peaceful-solution.html"/>
-        <id>https://turkmenson.com/israel-vs-hamas-peaceful-solution.html</id>
-            <category term="people"/>
-            <category term="Palestine"/>
-            <category term="Israel"/>
-
-        <updated>2023-12-21T17:31:27+07:00</updated>
-            <summary>
-                <![CDATA[
-                    The 7th October 2023 event is a terrific event that occurred in Israel. What I want is for Israelis to show mercy for this. Because the politics that Hamas is playing versus what Israel is playing are on the different level. Israel is more powerful&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>The 7th October 2023 event is a terrific event that occurred in Israel.</p>
-<p>What I want is for Israelis to show mercy for this. Because the politics that Hamas is playing versus what Israel is playing are on the different level.</p>
-<p>Israel is more powerful than the established, prosperous nuclear power supported by the collective West, especially by the USA.</p>
-<p>To have a piece, we should have mercy. What I despise is that Israel is pretending to be merciful because mercy is not a punishment but forgiveness. Where is the mercy in the warnings when they want to punish Palestinians anyway?</p>
-<p>Another thing I despise in the politics of Israel is playing the victim when they are the aggressor against Palestinians.</p>
-<p>What is the real mercy is when in Africa, white people were ruling over the black people, some black people uprised against them. They used all methods to be heard—mainly bombing near the schools.</p>
-<p>Eventually, they took the victory and brought justice to the black people by giving them the same rights as white people. Nelson Mandela, the leader of this uprising, was named Person of the Year. He is respected by the West, which didn't focus too much on his bombings.</p>
-<p>What is the solution for Israel giving up half of the land to the Palestinians? To avoid revenge and hatred from their side, Israel, as the wealthiest country, could compensate with money by helping to build Palestine by modernizing it.</p>
-<p>Rather than spending much on the military budget, they could pay more on building Palestine. Jews would not be richer and have a comfortable life as today, but in return, they would get peace, and they wouldn't have to fear danger behind the border.</p>
-<hr>
-<p>When a girl X breaks up with a boyfriend and feels a massive hatred in her heart, she casts on porn or goes to a club to have nights with dozens of people. You can't have mercy on such kind of people too much.</p>
-<p>When girl Y is sent to trade her body at age 15 by her alcoholic parents, the girl is doing the same bad, unjustified things as girl X. But you should have mercy on girl Y because of the conditions that created it.</p>
-<p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Notes on &quot;Practical Deep Learning for Coders&quot;</title>
-        <author>
-            <name>Medet Ahmetson</name>
-        </author>
-        <link href="https://turkmenson.com/notes-on-practical-deep-learning-for-coders.html"/>
-        <id>https://turkmenson.com/notes-on-practical-deep-learning-for-coders.html</id>
-            <category term="technology"/>
-            <category term="ai-notes"/>
-            <category term="ai"/>
-
-        <updated>2023-12-21T17:17:23+07:00</updated>
-            <summary>
-                <![CDATA[
-                    31 October 2023 Course: https://course.fast.ai/ Book: https://github.com/fastai/fastbook Deep Learning is a computer technique to extract and transform data using multiple neural network layers. Top used use cases: In 1943, Warren McCulloch and Walter Pitts developed a mathematical model of artificial neurons. It's declared in "A&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p><em>31 October 2023</em></p>
-<p class="msg msg--info">Course: <a href="https://course.fast.ai/">https://course.fast.ai/</a></p>
-<p class="msg msg--info">Book: <a href="https://github.com/fastai/fastbook">https://github.com/fastai/fastbook</a></p>
-<h2>Intro</h2>
-<p>Deep Learning is a computer technique to extract and transform data using multiple neural network layers.</p>
-<p>Top used use cases:</p>
-<ol>
-<li>NLP: answer questions; speech recognition; summarize; classify; find; search</li>
-<li>Computer Vision: satellite image interpretation, face recognition, caption</li>
-<li>Medicine: finding anomalies; counting features in slides; measuring; diagnosing</li>
-<li>Biology: classifying genomic tasks; analyzing cell interactions</li>
-<li>Image Generation</li>
-<li>Recommend Systems: search engines, home page layout, product recommendation</li>
-<li>Playing Games</li>
-<li>Robotics</li>
-<li>Financial, Logistics, etc...</li>
-</ol>
-<p>In 1943, Warren McCulloch and Walter Pitts developed a mathematical model of artificial neurons. It's declared in "<em>A logical calculus of the ideas immanent in Neurous Activity</em>."</p>
-<p>The neuron could be represented as addition and thresholding.</p>
-<figure class="align-center"><img loading="lazy"  src="https://www.researchgate.net/publication/258372123/figure/fig1/AS:374245319299072@1466238445241/Mathematical-model-of-artificial-neuron.png" alt="Mathematical model of artificial neuron | Download Scientific Diagram" width="239" height="166" data-is-external-image="true"></figure>
-<p>Frank Rosenblatt gave artificial neurons the ability to learn. He even created the first device on this principle: <strong>Mark I Perceptron</strong>.</p>
-<blockquote>
-<p>We are now about to witness the birth of such a machine - capable of perceiving, recognizing, and identifying the surroundings without any human training or context.</p>
-<p class="align-right">"The Design of an Intelligent Automata"</p>
-<p class="align-right">Frank Rosenblatt</p>
-</blockquote>
-<p>Marvin Minsky and Seymour Papert wrote a book called "<em>Perceptrons</em>." They showed that the device needs multiple layers to learn simple mathematical functions.</p>
-<p>Perhaps the most pivotal work in neural networks was the "<em>Parallel Distributed Processes</em>" by David Rumelhart, James McCallen, and the PDP Research Group, released in 1986.</p>
-<p>PDP approach for the programming framework defined requires:</p>
-<ol>
-<li>process unit sets</li>
-<li>state of activation</li>
-<li>output function for each unit</li>
-<li>connectivity pattern among units</li>
-<li>propagation rule for propagating through the network of connectivities</li>
-<li>activation rule for combining inputs impinging on a unit with the current state of that unit to produce output for the unit</li>
-<li>learning rule whereby patterns of connectivity are modified by experience</li>
-<li>an environment where PDP must operate</li>
-</ol>
-<p>Modern Neural Networks use an approach similar to PDP. </p>
-<p class="msg msg--info msg--highlight  ">The book says that the theoretical knowledge was misunderstood, and the issues held back the development until 2010. But also says that despite having two layers, it was too big and too slow to be helpful. Recent advancements in the hardware allowed training neural networks with more layers.</p>
-<p class="msg msg--info">For learning, it is best to use Jupyter Notebooks. The Jupyter Notebooks are software that allows you to include assets and code together.</p>
-<p>The deep learning uses the neural networks. It's part of machine learning. The deep learning model process and its training apply to the general concepts of machine learning.</p>
-<p>Machine learning is another form of programming where instead of the algorithm, you write the desired output, and the software finds the path.</p>
-<p>The term "machine learning" was coined by Arthur Samuel from IBM in 1949. In his 1962 classic essay "<em>Artificial Intelligence: A Frontier of Automation,</em>" he wrote machine technique.</p>
-<p>Rather than describing each step to solve the task, show an example of the problem to solve. Then, let the program figure out the algorithm.</p>
-<hr>
-<p>There is an actual performance of weight assignment. Then, there is an automatic means of testing performance—a mechanism for improving performance by changing weight assignments.</p>
-<p>The weights are variables. The weight assignments are a choice of those variables. The program inputs are variables. </p>
-<p>In modern terminology, machine learning programs are called models.</p>
-<p>The weight assignment is the second input describing the actual input. In modern terminology, weight assignments are called model parameters.</p>
-<p>Automatic testing means you let two models work against each other. Actual performance is the desired result. After each iteration, you adjust the model to test the outcome.</p>
-<p>If you automate the iteration to adjust the model parameters, the program could learn from experience.</p>
-<p>This automatic iteration is called model training.</p>
-<p>Once the weights were adjusted, they became part of the model. </p>
-<p>The neural networks are mathematical functions. The mathematical proof called the Universal Approximation Theorem shows this function can solve any problem in theory.</p>
-<p>The general approach to adjusting weights is made via Stochastic Gradient Descent (SGD), a mathematical method.</p>
-<p>The model includes weight, a function producing results, and performance updating weights. The functional part is called architecture.</p>
-<p>Prediction is the result. The loss is the measurement of the performance. It's measured against the labels.</p>
-<p>Transformers are code that is applied during the training. There are item and batch transformers. The inputs are not used to train. Some part of the set is kept separated to test that training.</p>
-<p>The training input is called a training set, while testing data is used as a validation set. Over time, as the validation set is set, the model starts memorizing the labels. Thus, it doesn't find the generalizing patterns. This is called overfitting.</p>
-<p>Overfitting is the single, most important issue in the model training.</p>
-<p>Resnet is one of the architectures. It could have 18, 34, 50, 101 and 150 layers. The more layers mean training and with less data will be prone to overfitting.</p>
-<p>The model that has trained weights is called pre-trained model. It's better to build on the pre-trained models by changing some layers with yours. Using pre-trained model for a task different than what it was originally trained is called transfer learning.</p>
-<p>Fine tuning is a transfer learning technique where parameters of pretrained models update by additional epoch. Epoch is how many times the model looks at the data.</p>
-<p>Machine learning has some limitations:</p>
-<ol style="list-style-type: lower-alpha;">
-<li>A model can not be created without data</li>
-<li>It can learn the patterns from input data</li>
-</ol>
-<hr>
-<h2>Deep Learning Vocabulary</h2>
-<p>Label - a data we are trying to predict</p>
-<p>Architecture - a template of a model we are tring to fit a model; an actual function</p>
-<p>Parameters - values in model that change what task it can do and updates throughout the training process.</p>
-<p>Fit - update the parameters such that predictions of model using input to match output labels. Also called Train.</p>
-<p>Fine Tune - special technique in transfer learning to update pre-trained model.</p>
-<p>Epoch - one complete task to pass through input data</p>
-<p>Loss - a measure how good model is using validation set</p>
-<p>Training set - data for training</p>
-<p>Validation set - data for measuring loss</p>
-<p>Overfitting - training remembers specific features of input than generalizing pattern.</p>
-<p>CNN - neural network for computer vision</p>
             ]]>
         </content>
     </entry>
