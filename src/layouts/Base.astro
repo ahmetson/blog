@@ -177,11 +177,18 @@ const { title, meta_title, description, image, noindex, canonical } =
       )
     }
 
-    <TwSizeIndicator />
-    <Header />
-    <main id="main-content">
-      <slot />
-    </main>
-    <Footer />
+    {/* Turkmen carpet border pattern - Salor gol style */}
+    <div class="turkmen-border"></div>
+    <div class="turkmen-border-pattern"></div>
+
+    {/* Content wrapper inside the border */}
+    <div class="turkmen-content-wrapper">
+      <TwSizeIndicator />
+      <Header />
+      <main id="main-content">
+        <slot />
+      </main>
+      <Footer />
+    </div>
   </body>
 </html>

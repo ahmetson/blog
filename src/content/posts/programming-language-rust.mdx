@@ -1,0 +1,47 @@
+---
+title: "Programming Language: Rust"
+description: "Rust is a programming language designed by Mozilla Foundation. This is the notes on Rust Book. CLI applications: rustc rustup cargo cargo new &lt;project_name&gt; cargo build // --release for production cargo run cargo check //ensures code compiles but doesn't build the executable. fn main() {&hellip;"
+date: 2024-01-05T04:29:59.000Z
+authors: ["Medet Ahmetson"]
+tags: ["technology", "rust", "programming-language"]
+categories: []
+draft: false
+---
+
+<p>Rust is a programming language designed by Mozilla Foundation.</p>
+<p>This is the notes on <a href="https://doc.rust-lang.org/book/ch01-02-hello-world.html" target="_blank" rel="noopener noreferrer">Rust Book</a>.</p>
+<h2>Cheatsheet</h2>
+<p>CLI applications:</p>
+<p><code>rustc</code></p>
+<p><code>rustup</code></p>
+<p><code>cargo</code></p>
+<p><code>cargo new &lt;project_name&gt;</code></p>
+<p><code>cargo build // --release for production</code></p>
+<p><code>cargo run</code></p>
+<p><code>cargo check //ensures code compiles but doesn't build the executable.</code></p>
+<h2>Hello World</h2>
+<p><code>fn main() &#123; <br />  println!("Hello, World!");<br />&#125;</code></p>
+<p>Write the code above in <code>hello.rs</code>. Open the terminal, and type: <code>rustc ./hello.rs</code>.</p>
+<p>In rust, there must always be a primary function. It's a starting point of the application. The functions must always have curly braces.</p>
+<p>The<code> println!</code> is a macro. Macros always end with an exclamation mark.</p>
+<h2>Hello, Cargo</h2>
+<p>Cargo is the package and system manager for Rust. It handles downloading libraries, building the binary, and many other tasks.</p>
+<p>The libraries that the program uses are called dependencies.</p>
+<p>Create a cargo project using <code>cargo new &lt;project_name&gt;</code>.</p>
+<p>The cargo automatically creates version control files using Git as a default VCS.</p>
+<p>In the project structure using cargo, all files are stored in the <code>src </code>directory. The parameters of the program are defined in the <code>Cargo.toml</code> configuration file.</p>
+<p>Build the project using <code>cargo build </code>command. Run the program using <code>cargo run</code>.</p>
+<hr />
+<h1>Syntax</h1>
+<p>[<em>associative function</em>]</p>
+<p>The string is the standard data type in Rust. <code>::</code> in <code>String::new()</code> calls the associative function. The associative function is the function that is implemented on the type.</p>
+<p>[<code>enum</code>]</p>
+<p>Enumerations are called in short as <code>enum</code>, which is the type that can have multiple possible states. We call each possible state a variant.</p>
+<p> </p>
+<p>[<em>crate</em>]</p>
+<p>The crate is a collection of rust files. </p>
+<p> </p>
+<pre class="playground"><code class="language-rust hljs hide-boring"><span class="hljs-keyword">let</span> a: [<span class="hljs-built_in">i32</span>; <span class="hljs-number">5</span>] = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>];
+</code><br />let a: [i32; 5] = [1, 2, 3, 4, 5];<br />let a: (i32, string, char) = (23, "hello", 'z');</pre>
+<p>Slices are contiguous sequences of elements in a collection rather than a whole array. It's a kind of a reference.</p>
+<p> </p>

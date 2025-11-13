@@ -1,0 +1,75 @@
+/* Turkmen Carpet Border Pattern - Salor Gol style */
+/* 48px fixed border with geometric Turkmen rug pattern */
+
+:root {
+  --turkmen-border-light: #c41e3a; /* Red for light theme */
+  --turkmen-border-dark: #6b1f3d; /* Dark wine for dark theme */
+}
+
+/* Main border container - fixed position covering entire screen */
+.turkmen-border {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 9999;
+  border: 48px solid var(--turkmen-border-light);
+  box-sizing: border-box;
+}
+
+/* Dark theme support */
+@media (prefers-color-scheme: dark) {
+  .turkmen-border {
+    border-color: var(--turkmen-border-dark);
+  }
+}
+
+/* Enhanced geometric pattern - Salor gol style with visible guls */
+.turkmen-border-pattern {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 10000; /* Above the border so patterns are visible */
+  /* Salor gol pattern - visible guls with higher opacity */
+  background-image: 
+    /* Top border - visible Turkmen gul pattern */
+    url("data:image/svg+xml,%3Csvg width='48' height='48' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='gul-top' x='0' y='0' width='48' height='48' patternUnits='userSpaceOnUse'%3E%3Cg stroke='rgba(255,255,255,0.9)' stroke-width='2.5' fill='none'%3E%3Cpath d='M24,6 L36,12 L42,24 L36,36 L24,42 L12,36 L6,24 L12,12 Z'/%3E%3Cpath d='M24,12 L36,24 L24,36 L12,24 Z'/%3E%3Cpath d='M24,18 L30,24 L24,30 L18,24 Z'/%3E%3C/g%3E%3Ccircle cx='24' cy='24' r='5' fill='rgba(255,255,255,0.7)'/%3E%3Ccircle cx='24' cy='24' r='2' fill='rgba(255,255,255,1)'/%3E%3Ccircle cx='12' cy='12' r='2' fill='rgba(255,255,255,0.8)'/%3E%3Ccircle cx='36' cy='12' r='2' fill='rgba(255,255,255,0.8)'/%3E%3Ccircle cx='12' cy='36' r='2' fill='rgba(255,255,255,0.8)'/%3E%3Ccircle cx='36' cy='36' r='2' fill='rgba(255,255,255,0.8)'/%3E%3Cline x1='0' y1='24' x2='48' y2='24' stroke='rgba(255,255,255,0.7)' stroke-width='1.2'/%3E%3Cline x1='24' y1='0' x2='24' y2='48' stroke='rgba(255,255,255,0.6)' stroke-width='1'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100%25' height='48' fill='url(%23gul-top)'/%3E%3C/svg%3E"),
+    /* Bottom border */
+    url("data:image/svg+xml,%3Csvg width='48' height='48' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='gul-bottom' x='0' y='0' width='48' height='48' patternUnits='userSpaceOnUse'%3E%3Cg stroke='rgba(255,255,255,0.9)' stroke-width='2.5' fill='none'%3E%3Cpath d='M24,6 L36,12 L42,24 L36,36 L24,42 L12,36 L6,24 L12,12 Z'/%3E%3Cpath d='M24,12 L36,24 L24,36 L12,24 Z'/%3E%3Cpath d='M24,18 L30,24 L24,30 L18,24 Z'/%3E%3C/g%3E%3Ccircle cx='24' cy='24' r='5' fill='rgba(255,255,255,0.7)'/%3E%3Ccircle cx='24' cy='24' r='2' fill='rgba(255,255,255,1)'/%3E%3Ccircle cx='12' cy='12' r='2' fill='rgba(255,255,255,0.8)'/%3E%3Ccircle cx='36' cy='12' r='2' fill='rgba(255,255,255,0.8)'/%3E%3Ccircle cx='12' cy='36' r='2' fill='rgba(255,255,255,0.8)'/%3E%3Ccircle cx='36' cy='36' r='2' fill='rgba(255,255,255,0.8)'/%3E%3Cline x1='0' y1='24' x2='48' y2='24' stroke='rgba(255,255,255,0.7)' stroke-width='1.2'/%3E%3Cline x1='24' y1='0' x2='24' y2='48' stroke='rgba(255,255,255,0.6)' stroke-width='1'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100%25' height='48' fill='url(%23gul-bottom)'/%3E%3C/svg%3E"),
+    /* Left border */
+    url("data:image/svg+xml,%3Csvg width='48' height='48' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='gul-left' x='0' y='0' width='48' height='48' patternUnits='userSpaceOnUse'%3E%3Cg stroke='rgba(255,255,255,0.9)' stroke-width='2.5' fill='none'%3E%3Cpath d='M24,6 L36,12 L42,24 L36,36 L24,42 L12,36 L6,24 L12,12 Z'/%3E%3Cpath d='M24,12 L36,24 L24,36 L12,24 Z'/%3E%3Cpath d='M24,18 L30,24 L24,30 L18,24 Z'/%3E%3C/g%3E%3Ccircle cx='24' cy='24' r='5' fill='rgba(255,255,255,0.7)'/%3E%3Ccircle cx='24' cy='24' r='2' fill='rgba(255,255,255,1)'/%3E%3Ccircle cx='12' cy='12' r='2' fill='rgba(255,255,255,0.8)'/%3E%3Ccircle cx='36' cy='12' r='2' fill='rgba(255,255,255,0.8)'/%3E%3Ccircle cx='12' cy='36' r='2' fill='rgba(255,255,255,0.8)'/%3E%3Ccircle cx='36' cy='36' r='2' fill='rgba(255,255,255,0.8)'/%3E%3Cline x1='0' y1='24' x2='48' y2='24' stroke='rgba(255,255,255,0.7)' stroke-width='1.2'/%3E%3Cline x1='24' y1='0' x2='24' y2='48' stroke='rgba(255,255,255,0.6)' stroke-width='1'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='48' height='100%25' fill='url(%23gul-left)'/%3E%3C/svg%3E"),
+    /* Right border */
+    url("data:image/svg+xml,%3Csvg width='48' height='48' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='gul-right' x='0' y='0' width='48' height='48' patternUnits='userSpaceOnUse'%3E%3Cg stroke='rgba(255,255,255,0.9)' stroke-width='2.5' fill='none'%3E%3Cpath d='M24,6 L36,12 L42,24 L36,36 L24,42 L12,36 L6,24 L12,12 Z'/%3E%3Cpath d='M24,12 L36,24 L24,36 L12,24 Z'/%3E%3Cpath d='M24,18 L30,24 L24,30 L18,24 Z'/%3E%3C/g%3E%3Ccircle cx='24' cy='24' r='5' fill='rgba(255,255,255,0.7)'/%3E%3Ccircle cx='24' cy='24' r='2' fill='rgba(255,255,255,1)'/%3E%3Ccircle cx='12' cy='12' r='2' fill='rgba(255,255,255,0.8)'/%3E%3Ccircle cx='36' cy='12' r='2' fill='rgba(255,255,255,0.8)'/%3E%3Ccircle cx='12' cy='36' r='2' fill='rgba(255,255,255,0.8)'/%3E%3Ccircle cx='36' cy='36' r='2' fill='rgba(255,255,255,0.8)'/%3E%3Cline x1='0' y1='24' x2='48' y2='24' stroke='rgba(255,255,255,0.7)' stroke-width='1.2'/%3E%3Cline x1='24' y1='0' x2='24' y2='48' stroke='rgba(255,255,255,0.6)' stroke-width='1'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='48' height='100%25' fill='url(%23gul-right)'/%3E%3C/svg%3E");
+  background-position:
+    top,
+    bottom,
+    left,
+    right;
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 48px 48px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .turkmen-border-pattern {
+    /* Dark theme - visible gul patterns */
+    background-image: 
+      url("data:image/svg+xml,%3Csvg width='48' height='48' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='gul-top-dark' x='0' y='0' width='48' height='48' patternUnits='userSpaceOnUse'%3E%3Cg stroke='rgba(255,255,255,0.6)' stroke-width='2.5' fill='none'%3E%3Cpath d='M24,6 L36,12 L42,24 L36,36 L24,42 L12,36 L6,24 L12,12 Z'/%3E%3Cpath d='M24,12 L36,24 L24,36 L12,24 Z'/%3E%3Cpath d='M24,18 L30,24 L24,30 L18,24 Z'/%3E%3C/g%3E%3Ccircle cx='24' cy='24' r='5' fill='rgba(255,255,255,0.4)'/%3E%3Ccircle cx='24' cy='24' r='2' fill='rgba(255,255,255,0.7)'/%3E%3Ccircle cx='12' cy='12' r='2' fill='rgba(255,255,255,0.5)'/%3E%3Ccircle cx='36' cy='12' r='2' fill='rgba(255,255,255,0.5)'/%3E%3Ccircle cx='12' cy='36' r='2' fill='rgba(255,255,255,0.5)'/%3E%3Ccircle cx='36' cy='36' r='2' fill='rgba(255,255,255,0.5)'/%3E%3Cline x1='0' y1='24' x2='48' y2='24' stroke='rgba(255,255,255,0.4)' stroke-width='1.2'/%3E%3Cline x1='24' y1='0' x2='24' y2='48' stroke='rgba(255,255,255,0.35)' stroke-width='1'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100%25' height='48' fill='url(%23gul-top-dark)'/%3E%3C/svg%3E"),
+      url("data:image/svg+xml,%3Csvg width='48' height='48' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='gul-bottom-dark' x='0' y='0' width='48' height='48' patternUnits='userSpaceOnUse'%3E%3Cg stroke='rgba(255,255,255,0.6)' stroke-width='2.5' fill='none'%3E%3Cpath d='M24,6 L36,12 L42,24 L36,36 L24,42 L12,36 L6,24 L12,12 Z'/%3E%3Cpath d='M24,12 L36,24 L24,36 L12,24 Z'/%3E%3Cpath d='M24,18 L30,24 L24,30 L18,24 Z'/%3E%3C/g%3E%3Ccircle cx='24' cy='24' r='5' fill='rgba(255,255,255,0.4)'/%3E%3Ccircle cx='24' cy='24' r='2' fill='rgba(255,255,255,0.7)'/%3E%3Ccircle cx='12' cy='12' r='2' fill='rgba(255,255,255,0.5)'/%3E%3Ccircle cx='36' cy='12' r='2' fill='rgba(255,255,255,0.5)'/%3E%3Ccircle cx='12' cy='36' r='2' fill='rgba(255,255,255,0.5)'/%3E%3Ccircle cx='36' cy='36' r='2' fill='rgba(255,255,255,0.5)'/%3E%3Cline x1='0' y1='24' x2='48' y2='24' stroke='rgba(255,255,255,0.4)' stroke-width='1.2'/%3E%3Cline x1='24' y1='0' x2='24' y2='48' stroke='rgba(255,255,255,0.35)' stroke-width='1'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100%25' height='48' fill='url(%23gul-bottom-dark)'/%3E%3C/svg%3E"),
+      url("data:image/svg+xml,%3Csvg width='48' height='48' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='gul-left-dark' x='0' y='0' width='48' height='48' patternUnits='userSpaceOnUse'%3E%3Cg stroke='rgba(255,255,255,0.6)' stroke-width='2.5' fill='none'%3E%3Cpath d='M24,6 L36,12 L42,24 L36,36 L24,42 L12,36 L6,24 L12,12 Z'/%3E%3Cpath d='M24,12 L36,24 L24,36 L12,24 Z'/%3E%3Cpath d='M24,18 L30,24 L24,30 L18,24 Z'/%3E%3C/g%3E%3Ccircle cx='24' cy='24' r='5' fill='rgba(255,255,255,0.4)'/%3E%3Ccircle cx='24' cy='24' r='2' fill='rgba(255,255,255,0.7)'/%3E%3Ccircle cx='12' cy='12' r='2' fill='rgba(255,255,255,0.5)'/%3E%3Ccircle cx='36' cy='12' r='2' fill='rgba(255,255,255,0.5)'/%3E%3Ccircle cx='12' cy='36' r='2' fill='rgba(255,255,255,0.5)'/%3E%3Ccircle cx='36' cy='36' r='2' fill='rgba(255,255,255,0.5)'/%3E%3Cline x1='0' y1='24' x2='48' y2='24' stroke='rgba(255,255,255,0.4)' stroke-width='1.2'/%3E%3Cline x1='24' y1='0' x2='24' y2='48' stroke='rgba(255,255,255,0.35)' stroke-width='1'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='48' height='100%25' fill='url(%23gul-left-dark)'/%3E%3C/svg%3E"),
+      url("data:image/svg+xml,%3Csvg width='48' height='48' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='gul-right-dark' x='0' y='0' width='48' height='48' patternUnits='userSpaceOnUse'%3E%3Cg stroke='rgba(255,255,255,0.6)' stroke-width='2.5' fill='none'%3E%3Cpath d='M24,6 L36,12 L42,24 L36,36 L24,42 L12,36 L6,24 L12,12 Z'/%3E%3Cpath d='M24,12 L36,24 L24,36 L12,24 Z'/%3E%3Cpath d='M24,18 L30,24 L24,30 L18,24 Z'/%3E%3C/g%3E%3Ccircle cx='24' cy='24' r='5' fill='rgba(255,255,255,0.4)'/%3E%3Ccircle cx='24' cy='24' r='2' fill='rgba(255,255,255,0.7)'/%3E%3Ccircle cx='12' cy='12' r='2' fill='rgba(255,255,255,0.5)'/%3E%3Ccircle cx='36' cy='12' r='2' fill='rgba(255,255,255,0.5)'/%3E%3Ccircle cx='12' cy='36' r='2' fill='rgba(255,255,255,0.5)'/%3E%3Ccircle cx='36' cy='36' r='2' fill='rgba(255,255,255,0.5)'/%3E%3Cline x1='0' y1='24' x2='48' y2='24' stroke='rgba(255,255,255,0.4)' stroke-width='1.2'/%3E%3Cline x1='24' y1='0' x2='24' y2='48' stroke='rgba(255,255,255,0.35)' stroke-width='1'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='48' height='100%25' fill='url(%23gul-right-dark)'/%3E%3C/svg%3E");
+  }
+}
+
+/* Content wrapper - ensures content is inside the border */
+.turkmen-content-wrapper {
+  position: relative;
+  z-index: 10001; /* Above pattern layer */
+  min-height: 100vh;
+  padding: 48px;
+  box-sizing: border-box;
+}

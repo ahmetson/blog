@@ -1,14 +1,14 @@
 {
   "site": {
-    "title": "Northendlab | Astro Blog Theme",
-    "base_url": "https://northendlab-light-astro.vercel.app/",
+    "title": "Ahmetson.com",
+    "base_url": "https://ahmetson.com/",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/images/favicon.png",
-    "logo": "/images/logo.svg",
-    "logo_width": "197",
-    "logo_height": "31",
-    "logo_text": "Northendlab"
+    "favicon": "/media/website/ahmetson.png",
+    "logo": "/media/website/ahmetson.png",
+    "logo_width": "176",
+    "logo_height": "176",
+    "logo_text": "Ahmetson"
   },
 
   "settings": {
@@ -17,7 +17,7 @@
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "© 2025 [Themefisher](https://themefisher.com/) All Rights Reserved"
+    "copyright": "© 2025 Medet Ahmetson. All Rights Reserved"
   },
 
   "google_tag_manager": {
@@ -26,8 +26,8 @@
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
-    "meta_image": "/images/og-image.png",
-    "meta_description": "Northendlab Light Astro Blog Theme"
+    "meta_author": "Medet Ahmetson",
+    "meta_image": "/media/website/ahmetson.png",
+    "meta_description": "Ahmetson.com - Thoughts, Ideas worth sharing"
   }
 }

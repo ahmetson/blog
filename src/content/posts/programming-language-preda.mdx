@@ -1,0 +1,96 @@
+---
+title: "Programming Language: Preda"
+description: "In the middle of 2023, I joined a Preda hackathon that kicked out on 18th November 2023. I already have an interest in programming languages. So, I will use this hackathon to try out a new language. But what is Preda programming language? Official website:&hellip;"
+date: 2023-12-27T09:11:43.000Z
+authors: ["Medet Ahmetson"]
+tags: ["technology", "programming-language", "preda-programming-language", "blockchain-conspect", "blockchain"]
+categories: []
+draft: false
+---
+
+<p>In the middle of 2023, I joined a Preda hackathon that kicked out on 18th November 2023.</p>
+<p>I already have an interest in programming languages. So, I will use this hackathon to try out a new language. But what is Preda programming language?</p>
+<h1>The Language Specification</h1>
+<p>Official website: <a href="https://www.preda-lang.org/pdf/preda-model-sole.pdf" target="_blank" rel="noopener noreferrer">https://www.preda-lang.org/</a></p>
+<p>Preda is a programming language used to increase transaction throughput for applications on blockchain platforms.</p>
+<h2>Preface</h2>
+<p>The applications in the blockchain platforms are called smartcontracts. Ethereum invented intelligent contracts, the first blockchain platform, in 2015.</p>
+<p>Even in 2023, Ethereum is the most popular blockchain platform, setting the global trends in the cryptocurrency ecosystem. The Ethereum blockchain network has the Ethereum Virtual Machine (EVM), where smart contracts are executed. The platform provides various programming languages to write a smartcontract targeting EVM.</p>
+<p>The most popular programming language is Solidity: <a href="https://soliditylang.org/">https://soliditylang.org/</a>.</p>
+<p>However, EVM could process a single transaction simultaneously, which means a considerable delay during the high traffic.</p>
+<p>There are many ways to solve the scalability issues. Most of the blockchain trend goes into building a blockchain of blockchains: Cosmos, Polkadot, Layer 2 blockchains, etc.</p>
+<p>Preda is taking an unusual direction to increase scalability by creating distributed intelligent contracts.</p>
+<h2>Distributed Smartcontracts</h2>
+<p> To understand a distributed smartcontract, think about a popular web application. Imagine a web application that serves thousands of requests at a time. How would you scale the server to serve multiple requests?</p>
+<p>The intuitive way to execute multiple requests simultaneously is by creating multiple copies of the application (as a cluster) that run the requests in parallel. But there is a better approach. You could split the app into smaller inter-connected parts rather than creating a copy of the same code. Then, create a cluster of the parts that have a heavy load. When an app consists of multiple inter-connected parts running in parallel, this app is called a distributed application.</p>
+<p>Almost all modern web applications are distributed with at least a client, server, and database.</p>
+<p>Similarly, a distributed smart contract consists of multiple parts that execute the transactions together.</p>
+<p>As I mentioned in the Preface, the current EVM supports a single transaction simultaneously. So, Solidity is created for a single transaction as well.</p>
+<p>To create distributed intelligent contracts, we need a blockchain that supports distributed systems and a programming language to execute and make asynchronous calls between various allocated parts.</p>
+<p>Even in modern EVM, you can split an app into multiple intelligent contracts. But their interaction is synchronous, so it blocks all requests until other smart contracts won't complete the execution.</p>
+<p>Contract A could send request A to contract B by making the requests asynchronous. Meanwhile, execute the request B from the transaction pools.</p>
+<p>Preda is the programming language used to make asynchronous calls between smart contracts, which solves the second problem for scalable execution.</p>
+<figure class="post__image"><img loading="lazy"  src="https://dioxide.network/img/model-2.png" alt="" width="959" height="605" data-is-external-image="true" /></figure>
+<p><em>From dioxide.network</em></p>
+<p>But why was Preda invented?</p>
+<p>This is a Smartcontract.</p>
+<h2>Motivation behind Preda</h2>
+<p>As in most aspects of social interactions, the top 1% of the services get the majority of the traffic. So, scalability is needed for them.</p>
+<figure class="post__image"><img loading="lazy"  src="/media/posts/30/top-20-gas-consuming-smart-contracts-30d.png" alt="" width="2401" height="1260" sizes="100vw" srcset="/media/posts/30/responsive/top-20-gas-consuming-smart-contracts-30d-xs.png 300w ,/media/posts/30/responsive/top-20-gas-consuming-smart-contracts-30d-sm.png 480w ,/media/posts/30/responsive/top-20-gas-consuming-smart-contracts-30d-md.png 768w ,/media/posts/30/responsive/top-20-gas-consuming-smart-contracts-30d-lg.png 1024w ,/media/posts/30/responsive/top-20-gas-consuming-smart-contracts-30d-xl.png 1360w ,/media/posts/30/responsive/top-20-gas-consuming-smart-contracts-30d-2xl.png 1600w" /></figure>
+<p>Source: <a href="https://www.theblock.co/data/on-chain-metrics/ethereum/top-20-gas-consuming-smart-contracts-30d">https://www.theblock.co/data/on-chain-metrics/ethereum/top-20-gas-consuming-smart-contracts-30d</a></p>
+<p>Just look at Uniswap, which has about the 18th transactions, while Scroll has 2 thousand transactions. All other two million transactions deployed on Ethereum get less than 2000 transactions.</p>
+<h2>Notes on specification</h2>
+<p>Preda is a new programming language that extends Solidity by adding asynchronous calls between intelligent contracts.</p>
+<p><em>To support such kinds of smart contracts, the Preda team also created a blockchain network for that: <a href="https://dioxide.network/">https://dioxide.network/</a></em></p>
+<p>The Preda programming language specification Old: <a href="https://www.preda-lang.org/pdf/preda-model-sole.pdf">https://www.preda-lang.org/pdf/preda-model-sole.pdf</a></p>
+<p>The Preda programming language specification: <a href="https://preda-lang.org/pdf/PREDA_Model_as_an_Experimental_New_Smart_Contract_Language.pdf" target="_blank" rel="noopener noreferrer">https://preda-lang.org/pdf/PREDA_Model_as_an_Experimental_New_Smart_Contract_Language.pdf</a></p>
+<p>Here are the notes I took by highlighting the critical parts of Preda.</p>
+<p>Preda stands for <strong>P</strong>arallel <strong>R</strong>elay <strong>E</strong>xecution <strong>D</strong>istributed <strong>A</strong>rchitecture. Preda introduces two models:</p>
+<ul style="list-style-type: circle;">
+<li>Programmable Scope: an isolated state of the smartcontract. Define the scope by data access pattern, which narrows and minimizes the data dependency between the states.</li>
+<li>Asynchronous Function Relay: a transaction logic that moves execution from one programmable scope to another. The function relay is defined with the explicit data dependency.</li>
+</ul>
+<p>In Solidity on Ethereum, the smartcontracts are defined as a set of variables (state) and functions (transaction functions). The state and functions are described in the global scope. However, it presents two significant challenges in scaling intelligent contracts.</p>
+<p>1. Partitioning the state requires understanding the data access patterns associated with the state variables. The Preda solves it by introducing a Programmable Contract Scope (κ-scope).</p>
+<p>2. A function defined on a global scope requires the availability of all functions and state variables. The Asynchronous Functional Relay (λ-relay) narrows the scope for a function to execute. The λ-relay decomposes the execution of k-scopes in the order of data dependency.</p>
+<p>In Preda, when invoking a function, it must provide a <em>target k-scope</em>, an analogy '<em>this</em>' pointer in C++.</p>
+<h3>Special k-Scopes</h3>
+<p>Engine Scopes = φθ(i): one instance of k-scope built in for each instance of the execution engine to represent a scope available for immediate read/write by any function executing the current execution engine. The engine scope is not allowed to be the target of λ-relay nor be referred to by specifying θ(i). The variables and functions in the engine scope can be accessed only by the i-th engine.</p>
+<p>Global Scopes =  φΩ: a built-in k-scope that logically singletones the entire network.</p>
+<p>PREDA model strictly prohibits referring to a specific instance of an execution engine or making assumptions on the underlying configuration (for example,<em> the number of execution engines</em>).</p>
+<p>In PREDA, the scopes are defined by fine-grained boundaries of contract states. The actual partitioning strategy is left to the hosting execution engine.</p>
+<h3>Relaying</h3>
+<p>A function initiating a transaction must trigger a λ-relay to execute on another k-scope. The λ-relay is converted into a relay transaction by the host. The relay transaction will be passed to the memory pool as an unordered pending transaction in the destination engine.</p>
+<p>Global scope transactions will be executed first before conducting an engine scope.</p>
+<p>Cross-contract invocation can be carried out immediately without doing a relay transaction.</p>
+<h3>Syntax</h3>
+<p>State variable defined and instantiated in a k-scope as:</p>
+<p><code>var_type @scope var_name;</code></p>
+<p>The <code>@scope</code> specifies a k-scope. It can be:</p>
+<ul>
+<li><code>@global</code>, which is by default, thus can be omitted.</li>
+<li><code>@engine</code>, for engine scopes.</li>
+<li><code>@address</code> or <code>@uint</code>: a keyed k-scope based on the Solidity elementary type name.</li>
+</ul>
+<p>Functions in the k-scope are always defined as:</p>
+<p><code>function fun_name(arg_type arg,..)<br />        @scope modifiers returns (ret_type) &#123;&#125;</code></p>
+<p>The <code>@scope</code> values are identical to the variable definition.</p>
+<p>In the destination k-scope, the target scope and global variables are merged and available as read-only variables. Symbols defined in the current engine are available for read and write.</p>
+<p><code>relay @key (var1, var2, ...) &#123;&#125;<br /> relay @global (var1, var2, ..) &#123;&#125;</code></p>
+<p>The above code defines a relay transaction to continue the execution in another scope. The <code>relay </code>defines a lambda function that is executed in the destination scope.</p>
+<p><code>// scope a<br /> relay func_name_k(var1, var2);<br /> // scope b<br /> function func_name_k(var1, var2) @scope public &#123;&#125;</code></p>
+<p>Besides passing a lambda function, Preda can also call a named function as defined above. The named functions must be public.</p>
+<p>The named transaction could be a cross-contract call as well as:</p>
+<p><code>relay @key ExtContr(a_addr).named_func_k(var1, var2);<br /> relay ExtContr(a_addr).named_func_k(var1, var2);</code></p>
+<p>Here, the <code>@key</code> is defining the scope of the <code>ExtContr</code>.</p>
+<p>The mappings are defined as:</p>
+<p><code>mapping&lt;type =&gt; type&gt; @scope var_name;</code></p>
+<p>Note that any current Solidity smartcontract can be compiled into Preda as is. In this case, all variables and functions will be in the global scope. The global scope is not scalable; therefore, the design goal of the developers is to minimize the global scope.</p>
+<h3>Potential Execution Engine</h3>
+<ul>
+<li>Multi-core single node.</li>
+<li>Sharded node</li>
+<li>Multiple Single Nodes across the internet</li>
+</ul>
+<hr />
+<p>The guideline on how to use Preda is described on Preda Guideline.</p>

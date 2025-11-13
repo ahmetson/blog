@@ -1,0 +1,24 @@
+---
+title: "OpenZeppelin in Preda programming language"
+description: "This page describes porting the OpenZeppelin contracts into a PREDA model. The OpenZeppelin contracts consist of multiple parts: Library V5, Upgradeable Plugin, and Subgraph. This is the porting of some parts of version 5. The Upgradeable plugin is ported on its own later. The subgraph&hellip;"
+date: 2023-12-27T09:52:35.000Z
+authors: ["Medet Ahmetson"]
+tags: ["technology", "project", "preda-programming-language", "blockchain"]
+categories: []
+draft: false
+---
+
+<p>This page describes porting the OpenZeppelin contracts into a PREDA model.</p>
+<p>The OpenZeppelin contracts consist of multiple parts: <a href="https://docs.openzeppelin.com/contracts/5.x/" target="_blank" rel="noopener noreferrer">Library V5</a>, <a href="https://docs.openzeppelin.com/upgrades-plugins/1.x/" target="_blank" rel="noopener noreferrer">Upgradeable Plugin</a>, and <a href="https://docs.openzeppelin.com/subgraphs/0.1.x/" target="_blank" rel="noopener noreferrer">Subgraph</a>.</p>
+<p>This is the porting of some parts of version 5. The Upgradeable plugin is ported on its own later. The subgraph is not ported, as it's out of the smart contract programming scope.</p>
+<p>The OpenZeppelin uses semantic versioning to release new changes. This is the porting of the version 5, the latest by the end of 2023.</p>
+<h2>Parts and what is not ported</h2>
+<p>The OpenZeppelin smart contracts or utilities around them are grouped into various categories. </p>
+<ul>
+<li>Wizard - Interactive smartcontract generator.</li>
+<li>Access Control - utility to limit function calls.</li>
+<li>Tokens - NFT, Cryptocurrency, etc.</li>
+<li>Governance - Decentralized Autonomous Organization (DAO) tools.</li>
+<li>Utils - additional useful smartcontracts to use in your projects: Cryptography, Math, Introspection, and many more.</li>
+</ul>
+<p>We don't implement a wizard, as it's out of the smart contract programming scope.</p>

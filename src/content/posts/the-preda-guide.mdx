@@ -1,0 +1,40 @@
+---
+title: "The Preda Guide"
+description: "Preda is a programming language to write distributed intelligent contracts that can execute transactions in parallel. If you are unfamiliar with the smart contract or want to see what Preda is, look at Programming Language: Preda, where I wrote some notes about it. This page&hellip;"
+date: 2023-12-27T09:40:44.000Z
+authors: ["Medet Ahmetson"]
+tags: ["technology", "project", "programming-language", "preda-programming-language"]
+categories: []
+draft: false
+---
+
+<p>Preda is a programming language to write distributed intelligent contracts that can execute transactions in parallel. If you are unfamiliar with the smart contract or want to see what Preda is, look at <a href="https://turkmenson.com/programming-language-preda.html" target="_blank" rel="noopener noreferrer">Programming Language: Preda</a>, where I wrote some notes about it.</p>
+<p>This page describes the projects I wrote in the Preda programming language: "<a href="https://lu.ma/co44nv4x" target="_blank" rel="noopener noreferrer">Preda Scale-out Smart Contracts Hackathon</a>".</p>
+<p>The best way to learn a technology is by creating something. I will also provide general lessons and valuable resources that helped me write something on Preda.</p>
+<h1>Brainstorming</h1>
+<p>For the hackathon, we need some ideas to work on. The project will benefit from the parallel execution.</p>
+<h2>Invalid directions</h2>
+<h3>Top Smartcontracts</h3>
+<p>As Preda was targeting top smartcontracts, let's take inspiration from them. However, complete intelligent contracts are all for DeFi. DeFi doesn't solve real-world problems, so let's skip it. </p>
+<h3>Top Transactions</h3>
+<p>The Bridges and Exchanges load the highest traffic on Ethereum. These smartcontracts are easy to implement, so let's skip it.</p>
+<h2>Right direction</h2>
+<p>The best way is to implement something impossible with the current smartcontracts and only available with the Preda's parallel execution.</p>
+<p>But before working on it, let's create small intelligent contracts to have an understanding of the program in Preda.</p>
+<p>And lastly, we are always relying on the libraries with the best practices that save us a lot of headaches.</p>
+<p>So, here is the list of the projects that I will be working on:</p>
+<ol>
+<li>(Library 1) The OpenZeppelin library is a state-of-the-art library for Ethereum. Let's convert it to Preda to bootstrap the creation of smart contracts.<br /><br /></li>
+<li>(Library 2) OpenZeppelin Upgradables: This is an interesting part of creating an upgradable contract. Maybe upgrade a certain state, rather than all smartcontract?</li>
+<li>(Small project 1) Mistransfer: a project that recovers tokens sent to a wrong smart contract. I wrote it for a Chainlink hackathon. And I believe it should be everywhere. So, let's implement it.</li>
+<li>(Small project 2) Malpie: a loyalty program for apps where users provide their data in exchange for a product discount.</li>
+<li>(Project)Where does Preda outshine? What kind of app is it possible to make on the blockchain? More in the next section.</li>
+</ol>
+<h3>Real-time app</h3>
+<p>Parallel execution enables real-time applications that were not possible on the blockchain before. What kind of real-time app? Do you know the original motivation behind the creation of the Ethereum?</p>
+<p>According to the legends, Vitalik was playing World of Warcraft, and one day, Blizzard Studio decided to remove one of his favorite game items. Outraged, he created a distributed platform where "Code is a law." It's a beautiful legend, so let it be.</p>
+<p>However, Ethereum doesn't allow the creation of a game such as World of Warcraft. But with Preda, we can create it. Each popular multiplayer, real-time game is a session. With Preda, we can make each session a scope with access from the users in that session. This allows, for example, to create a Layer 2 on Ethereum with the PREDA model. Fine-tuned, it could keep thousands of users online with less technical cost than without Preda.</p>
+<hr />
+<h1>Preda tricks</h1>
+<p>return type is inserted in the beginning after the "function" keyword.</p>
+<p>to make the contract read-only, replace "view" with "const."</p>

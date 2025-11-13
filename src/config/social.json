@@ -1,24 +1,24 @@
 {
   "main": [
     {
-      "name": "facebook",
-      "icon": "FaFacebook",
-      "link": "https://www.facebook.com/"
+      "name": "telegram",
+      "icon": "FaTelegram",
+      "link": "https://t.me/blocklord"
     },
     {
       "name": "X",
       "icon": "FaXTwitter",
-      "link": "https://x.com/"
+      "link": "https://x.com/mahmetson"
     },
     {
       "name": "github",
       "icon": "FaGithub",
-      "link": "https://www.github.com/"
+      "link": "https://www.github.com/ahmetson"
     },
     {
       "name": "linkedin",
       "icon": "FaLinkedin",
-      "link": "https://www.linkedin.com/"
+      "link": "https://www.linkedin.com/in/ahmetson"
     }
   ]
 }

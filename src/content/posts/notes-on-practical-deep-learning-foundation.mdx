@@ -1,0 +1,53 @@
+---
+title: "Notes on &quot;Practical deep learning&quot;: foundation"
+description: "While trying to launch the model, I discovered the book was outdated. Now, we took video lessons more than the book chapters. These are the notes on Lesson 3: How Neural Networks work and how to optimize it. Run notebooks in the /clean folder from the&hellip;"
+date: 2023-12-28T15:50:50.000Z
+authors: ["Medet Ahmetson"]
+tags: ["technology", "ai-notes", "ai"]
+categories: []
+draft: false
+---
+
+<p class="msg msg--highlight  msg--warning">While trying to launch the model, I discovered the book was outdated. Now, we took video lessons more than the book chapters.</p>
+<p>These are the notes on Lesson 3: How Neural Networks work and how to optimize it.</p>
+<h2>How to learn?</h2>
+<ol>
+<li>Watch the lessons</li>
+<li>(Read the chapters)</li>
+<li>Run notebooks and experiment.</li>
+<li>Reproduce results</li>
+<li>Repeat with different dataset</li>
+</ol>
+<p class="msg--info msg--highlight msg">Run notebooks in the <a href="https://github.com/fastai/fastbook/tree/master/clean" target="_blank" rel="noopener noreferrer">/clean</a> folder from the book repo.</p>
+<h2>About exported model</h2>
+<p>The exported model '.pkl' has two things.</p>
+<ol>
+<li>Preprocessing steps to turn data into a model: <code>DataLoader</code>part.</li>
+<li>Trained model available in <code>.model</code>parameter. It's a tree of multiple models for each neural layer. The submodules are available by <code>model.get_submodule()</code>method.</li>
+</ol>
+<p class="msg msg--highlight   ">@interact(a=1, b=2, c=3) is the particular keyword for jupyter to make interactive parameters.</p>
+<h1>How does Neural Network work?</h1>
+<p>A neural network tries to fit a function to data. The neural network adjusts the function parameters until the function's output is not close to the data.</p>
+<p>After adjusting the parameter, a loss function is used to see how close the function output is to the data. The <code>mean_mean_error: ((output - data)^2).mean()</code>is the most popular loss function.</p>
+<p>To automate adjustment by a loss function, we could calculate the derivative. Derivative checks how much parameter value increase increases the output. And how far it is from the data. The distance from the data to the function output is called a <code>slope</code> or <code>gradient</code>.</p>
+<p class="msg msg--highlight ">Python tip: <code>func(*params)</code>. The * expands the parameters into function arguments as a, b, and c.</p>
+<p>The <code>PyTorch</code> library has built-in derivative calculating functions. This function is called a <code>tensor.backward()</code>. It's the method of the tensors.</p>
+<p>How to enable derivative:</p>
+<ol>
+<li>Create a tensor: <code>abc = torch.tensor([1.5, 1.5, 1.5])</code> . For example, it created a rank one tensor.</li>
+<li>Enable derivative calculation in the tensor: <code>abs.requires_grad_()</code>.</li>
+<li>Calculate loss. Then, calculate a derivative using <code>.backward()</code>. This function adds the <code>.grad</code> property to the tensor with the slope derivative.</li>
+</ol>
+<p>Once the gradient value is available, we can iterate multiple times by adjusting parameters by the slope number.</p>
+<p>This loop is called <strong>optimization</strong>, which means decreasing the loss value.</p>
+<h2>Example</h2>
+<p>Assume we have random dots on the graph for the <em>c*x^2 + b*x + a </em>equation. Let the function find the values for <em>a, b,</em> and <em>c</em>. </p>
+<p>We have multiple dots for each part, not one. Because if there was one dot, we could draw a line by them.</p>
+<p>Initially, we picked some random numbers as the starting point. Then, we calculate the loss using <code>mean_square_error </code>by passing random dots and our initial values.</p>
+<p>Assume that the numbers are converted into tensors with enabled derivatives. Finally, we adjust the values until the gradient doesn't decrease sufficiently.</p>
+<h2>ReLu</h2>
+<p><strong>Relu</strong> is a short name for <strong>Rectified Linear:</strong></p>
+<p><code>def rectified_linear(m, b, x):<br />  y = m * x + b<br />  return torch.clip(y, 0.)</code></p>
+<p>This function is the single function whose negative value is turned into 0.</p>
+<p>Combining multiple relationships creates a flexible function that can solve almost any problem. </p>
+<p>This is pretty much the foundation on which all neural networks are built.</p>
