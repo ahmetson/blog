@@ -8,7 +8,6 @@ import AutoImport from "astro-auto-import";
 import { defineConfig } from "astro/config";
 import remarkCollapse from "remark-collapse";
 import remarkToc from "remark-toc";
-import sharp from "sharp";
 import config from "./src/config/config.json";
 
 // Determine adapter based on NODE_ENV
@@ -22,7 +21,6 @@ export default defineConfig({
   site: config.site.base_url ? config.site.base_url : "http://ahmetson.com",
   base: config.site.base_path ? config.site.base_path : "/",
   trailingSlash: config.site.trailing_slash ? "always" : "never",
-  image: { service: sharp() },
   vite: { plugins: [tailwindcss()] },
   integrations: [
     react(),
