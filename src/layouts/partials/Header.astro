@@ -1,5 +1,4 @@
 ---
-import Logo from "@/components/Logo.astro";
 import menu from "@/config/menu.json";
 import { IoSearch } from "react-icons/io5";
 
@@ -22,10 +21,6 @@ const currentPath = Astro.url.pathname;
 
 <header class={`header ${currentPath === "/" ? "fixed" : "sticky"}`}>
   <nav class="navbar container">
-    <!-- logo -->
-    <div class="order-0">
-      <Logo />
-    </div>
     <!-- navbar toggler -->
     <input id="nav-toggle" type="checkbox" class="hidden" />
     <label

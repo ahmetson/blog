@@ -1,0 +1,28 @@
+<svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="turkmen-gul-dark" x="0" y="0" width="48" height="48" patternUnits="userSpaceOnUse">
+      <!-- Salor/Chowdur gol style for dark theme -->
+      <g stroke="rgba(255,255,255,0.4)" stroke-width="2" fill="none">
+        <!-- Outer octagon -->
+        <path d="M24,6 L36,12 L42,24 L36,36 L24,42 L12,36 L6,24 L12,12 Z"/>
+        <!-- Inner diamond -->
+        <path d="M24,12 L36,24 L24,36 L12,24 Z"/>
+        <!-- Small inner diamond -->
+        <path d="M24,18 L30,24 L24,30 L18,24 Z"/>
+      </g>
+      <!-- Central circle -->
+      <circle cx="24" cy="24" r="5" fill="rgba(255,255,255,0.3)"/>
+      <circle cx="24" cy="24" r="2" fill="rgba(255,255,255,0.5)"/>
+      <!-- Corner elements -->
+      <circle cx="12" cy="12" r="2" fill="rgba(255,255,255,0.35)"/>
+      <circle cx="36" cy="12" r="2" fill="rgba(255,255,255,0.35)"/>
+      <circle cx="12" cy="36" r="2" fill="rgba(255,255,255,0.35)"/>
+      <circle cx="36" cy="36" r="2" fill="rgba(255,255,255,0.35)"/>
+      <!-- Connecting lines -->
+      <line x1="0" y1="24" x2="48" y2="24" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+      <line x1="24" y1="0" x2="24" y2="48" stroke="rgba(255,255,255,0.25)" stroke-width="0.8"/>
+    </pattern>
+  </defs>
+  <rect width="48" height="48" fill="url(#turkmen-gul-dark)"/>
+</svg>
+

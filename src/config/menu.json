@@ -5,15 +5,15 @@
       "url": "/"
     },
     {
-      "name": "Contact",
-      "url": "/contact"
+      "name": "Projects",
+      "url": "/projects"
+    },
+    {
+      "name": "Writings",
+      "url": "/posts"
     }
   ],
   "footer": [
-    {
-      "name": "Contact",
-      "url": "/contact"
-    },
     {
       "name": "Privacy Policy",
       "url": "/privacy-policy"

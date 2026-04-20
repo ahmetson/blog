@@ -1,0 +1,23 @@
+---
+import Post from "@/components/Post.astro";
+import Base from "@/layouts/Base.astro";
+import { getSinglePage } from "@/lib/contentParser.astro";
+import { sortByDate } from "@/lib/utils/sortFunctions";
+
+const posts = sortByDate(await getSinglePage("posts"));
+---
+
+<Base title="Writings">
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="mx-auto px-0 lg:col-8">
+          <h1 class="mb-8 text-h2-sm text-primary md:text-h2">Writings</h1>
+          <div class="rounded-xl p-8 shadow md:p-[60px]">
+            {posts.map((post) => <Post post={post} />)}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>

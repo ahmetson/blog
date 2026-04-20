@@ -1,76 +1,317 @@
 ---
-import Post from "@/components/Post.astro";
-import { settings } from "@/config/config.json";
 import Base from "@/layouts/Base.astro";
-import Cta from "@/layouts/components/Cta.astro";
-import Pagination from "@/layouts/components/Pagination.astro";
+import Social from "@/components/Social.astro";
+import social from "@/config/social.json";
 import { getSinglePage } from "@/lib/contentParser.astro";
+import dateFormat from "@/lib/utils/dateFormat";
 import { sortByDate } from "@/lib/utils/sortFunctions";
-import { markdownify } from "@/lib/utils/textConverter";
-import { Image } from "astro:assets";
-import type { CollectionEntry } from "astro:content";
-import { getEntry } from "astro:content";
 
-const homepage = (await getEntry(
-  "homepage",
-  "-index"
-)) as CollectionEntry<"homepage">;
-const { banner, call_to_action } = homepage.data;
-const posts = await getSinglePage("posts");
-const sortPostByDate = sortByDate(posts);
-const totalPages = Math.ceil(posts.length / settings.pagination);
+const latestPosts = sortByDate(await getSinglePage("posts")).slice(0, 5);
+
+const roleModels = [
+  {
+    name: "Hatam Tay",
+    description:
+      "A pre-Islamic Arab hero whose name became synonymous with generosity across the Muslim world. For me, this remains one of the highest measures of character.",
+    wiki: "https://en.wikipedia.org/wiki/Hatim_al-Tai",
+  },
+  {
+    name: "My father",
+    description:
+      "His name is Ahmet. He is as generous as Hatam Tay, and this is why I call myself Ahmetson.",
+  },
+];
+
+const admirePeople = [
+  {
+    name: "Norman Finkelstein",
+    description: "A Jewish academic who openly supports Palestine in academia.",
+    wiki: "https://en.wikipedia.org/wiki/Norman_Finkelstein",
+    image: "/images/people/norman-finkelstein.jpg",
+  },
+  {
+    name: "Theodor Shumovsky",
+    description:
+      "He translated the Quran into Russian. It is the strongest Russian translation I have seen.",
+    wiki: "https://en.wikipedia.org/wiki/Theodor_Shumovsky",
+    image: "/images/people/theodor-shumovsky.jpg",
+  },
+];
+
+const teachers = [
+  {
+    name: "My mother",
+    description:
+      "Religious and principled. She taught me that spirituality and moral ethics matter.",
+  },
+  {
+    name: "Taufik Ibragim & my math teacher J. Durdieva",
+    description:
+      "Ibragim, a Syrian-Russian philosopher, argued that defending Christianity against atheistic attacks carries the same obligation as defending Islam, because Christians are people of the book and the Abrahamic God is the same. I first heard this idea from my math teacher J. Durdieva, and Ibragim gave it its full form.",
+    wiki: "https://en.wikipedia.org/wiki/Tawfik_Ibrahim",
+  },
+  {
+    name: "Pieter Hintjens",
+    description:
+      "His guide on ZMQ changed my perspective on open-source software. My introduction to open source began with him.",
+    wiki: "https://en.wikipedia.org/wiki/Pieter_Hintjens",
+  },
+];
+
+const turkmenPeople = [
+  {
+    name: "Shohrat Kadyrov",
+    description:
+      "Author of Turkmennama. He wrote Turkmen history at its foundations.",
+    wiki: "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B4%D1%8B%D1%80%D0%BE%D0%B2,_%D0%A8%D0%BE%D1%85%D1%80%D0%B0%D1%82_%D0%A5%D0%BE%D0%B4%D0%B6%D0%B0%D0%BA%D0%BE%D0%B2%D0%B8%D1%87",
+  },
+  {
+    name: "Magtymguly Pyragy",
+    description:
+      "To be Turkmen is to become someone whom Pyragy would be proud of.",
+    wiki: "https://en.wikipedia.org/wiki/Magtymguly_Pyragy",
+  },
+];
+
+const projects = [
+  {
+    name: "Ara",
+    description:
+      "A semantic Web3 framework. The internet organized around meaning rather than attention.",
+    link: "/projects",
+    status: "active",
+  },
+  {
+    name: "Testable Programming Language",
+    description: "Code that proves itself.",
+    link: "/projects",
+    status: "r&d",
+  },
+  {
+    name: "Ghostbreaker",
+    description: "Active exploration and development.",
+    link: "/projects",
+    status: "active",
+  },
+];
 ---
 
 <Base>
-  <!-- Banner -->
-  <section
-    class="banner"
-    style="background-image: url('/images/banner/banner-bg.svg')"
-  >
+  <section class="section pb-10">
     <div class="container">
-      <div class="row">
-        <div class="lg:col-6">
-          {
-            banner?.title && (
-              <h1 set:html={markdownify(banner?.title)} class="h2 mb-8" />
-            )
-          }
+      <div class="minimal-hero">
+        <img
+          class="minimal-hero-photo"
+          src="/images/people/medet-profile.png"
+          alt="Portrait of Medet Ahmetson"
+          loading="eager"
+        />
+        <div>
+          <h1 class="h2 mb-4">Medet Ahmetson</h1>
+          <p class="minimal-intro">
+            Builder, writer, and independent thinker, and interested in spirituality, and politics of the world.
+            I share ideas that shaped my worldview, I promise they are original.
+          </p>
+          <Social source={social.main} className="social-icons minimal-social mt-6" />
         </div>
       </div>
-      <div class="banner-illustration">
+    </div>
+  </section>
+
+  <section class="section pt-8">
+    <div class="container">
+      <h2 class="minimal-section-title">Role Models</h2>
+      <div class="minimal-card-grid">
         {
-          banner?.image && (
-            <Image
-              src={banner.image}
-              width={768}
-              height={385}
-              alt={banner.title}
-            />
-          )
+          roleModels.map((item) => (
+            <article class="minimal-card">
+              <h3 class="h4 mb-3">{item.name}</h3>
+              <p>{item.description}</p>
+              {item.wiki && (
+                <a
+                  class="minimal-link"
+                  href={item.wiki}
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                >
+                  &rarr; Wikipedia
+                </a>
+              )}
+            </article>
+          ))
+        }
+      </div>
+      <p class="minimal-note mt-6">
+        In childhood, I loved Spider-Man and Vash the Stampede. I was mostly
+        indifferent to other superheroes.
+      </p>
+    </div>
+  </section>
+
+  <section class="section pt-8">
+    <div class="container">
+      <h2 class="minimal-section-title">I Admire</h2>
+      <p class="minimal-note mb-6">To my own surprise, both are Jews.</p>
+      <div class="minimal-card-grid">
+        {
+          admirePeople.map((item) => (
+            <article class="minimal-card">
+              <img
+                src={item.image}
+                alt={`Photo of ${item.name}`}
+                class="minimal-card-photo minimal-card-photo-small"
+                loading="lazy"
+              />
+              <h3 class="h4 mb-3">{item.name}</h3>
+              <p>{item.description}</p>
+              <a
+                class="minimal-link"
+                href={item.wiki}
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+              >
+                &rarr; Wikipedia
+              </a>
+            </article>
+          ))
         }
       </div>
     </div>
   </section>
-  <!-- /End Banner -->
 
-  <!-- Blogs -->
-  <section class="section">
+  <section class="section pt-8">
     <div class="container">
-      <div class="row px-3">
-        <div class="mx-auto px-0 lg:col-8">
-          <div class="rounded py-12 px-9 shadow md:p-[60px]">
-            {
-              sortPostByDate
-                .slice(0, settings.pagination)
-                .map((post) => <Post post={post} />)
-            }
-            <Pagination currentPage={1} totalPages={totalPages} />
-          </div>
+      <h2 class="minimal-section-title">My Teachers</h2>
+      <p class="minimal-note mb-6">
+        Many things changed my perspective - sometimes a random article or a
+        single page. But if I had to name teachers right now, it would be
+        these.
+      </p>
+      <div class="minimal-card-grid minimal-card-grid-three">
+        {
+          teachers.map((item) => (
+            <article class="minimal-card">
+              <h3 class="h4 mb-3">{item.name}</h3>
+              <p>{item.description}</p>
+              {item.wiki && (
+                <a
+                  class="minimal-link"
+                  href={item.wiki}
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                >
+                  &rarr; Wikipedia
+                </a>
+              )}
+            </article>
+          ))
+        }
+      </div>
+
+      <div class="minimal-subsection">
+        <h3 class="h3 mb-4">On being Turkmen</h3>
+        <div class="minimal-card-grid">
+          {
+            turkmenPeople.map((item) => (
+              <article class="minimal-card">
+                <h4 class="h4 mb-3">{item.name}</h4>
+                <p>{item.description}</p>
+                <a
+                  class="minimal-link"
+                  href={item.wiki}
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                >
+                  &rarr; Wikipedia
+                </a>
+              </article>
+            ))
+          }
         </div>
       </div>
     </div>
   </section>
-  <!-- /End Blogs -->
 
-  <Cta cta={call_to_action} />
+  <section class="section pt-8">
+    <div class="container">
+      <h2 class="minimal-section-title">Before You Go</h2>
+      <div class="minimal-prose">
+        <p>
+          Most of what you just read goes against canon. Many Muslims disagree
+          with me. Many Turkmens disagree with me. In tech, I was told to chase
+          money and leave naive ideas alone.
+        </p>
+        <p>
+          Every group had a version of who I should be. Muslims had one.
+          Turkmens had one. Tech people wanted me to be the IT guy. Academia
+          wanted me to be a researcher. Everyone had a role waiting.
+        </p>
+        <p>None of them matched.</p>
+        <p>No one called me stupid though. Except my ex-girlfriend.</p>
+        <p>
+          I am not a monk or a researcher. I think about these things, reach my
+          own conclusions, and apply them. You will see that in the work.
+        </p>
+        <p>
+          Technology is a tool. I have a goal, and technology serves that goal.
+        </p>
+        <p>
+          I am most likely to reply to two kinds of people: those who share a
+          common goal and want to build, and those who can talk about anything
+          without trying to fix me or redirect my path.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section pt-8">
+    <div class="container">
+      <div class="minimal-two-column">
+        <div class="minimal-column">
+          <h2 class="minimal-section-title">Recent Writings</h2>
+          <ul class="minimal-list">
+            {
+              latestPosts.map((post) => (
+                <li class="minimal-list-item">
+                  <a href={`/posts/${post.id}`} class="minimal-post-link">
+                    {post.data.title}
+                  </a>
+                  <span class="minimal-date">{dateFormat(post.data.date!)}</span>
+                </li>
+              ))
+            }
+          </ul>
+          <a class="minimal-link mt-5 inline-block" href="/posts">
+            &rarr; View all posts
+          </a>
+        </div>
+
+        <div class="minimal-column">
+          <h2 class="minimal-section-title">Ideas, Stances & Projects</h2>
+          <ul class="minimal-list">
+            {
+              projects.map((project) => (
+                <li class="minimal-list-item">
+                  <a
+                    href={project.link}
+                    class="minimal-project-link"
+                    target={project.link.startsWith("http") ? "_blank" : undefined}
+                    rel={
+                      project.link.startsWith("http")
+                        ? "noopener noreferrer nofollow"
+                        : undefined
+                    }
+                  >
+                    &rarr; {project.name}
+                  </a>
+                  <p class="mt-2 mb-1">{project.description}</p>
+                  <span class="minimal-status">{project.status}</span>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 </Base>

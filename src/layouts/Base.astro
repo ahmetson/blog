@@ -1,5 +1,4 @@
 ---
-import TwSizeIndicator from "@/components/TwSizeIndicator.astro";
 import config from "@/config/config.json";
 import theme from "@/config/theme.json";
 import { plainify } from "@/lib/utils/textConverter";
@@ -173,18 +172,10 @@ const { title, meta_title, description, image, noindex, canonical } =
     <meta name="twitter:card" content="summary_large_image" />
   </head>
   <body>
-    {/* Turkmen carpet border pattern - Salor gol style */}
-    <div class="turkmen-border"></div>
-    <div class="turkmen-border-pattern"></div>
-
-    {/* Content wrapper inside the border */}
-    <div class="turkmen-content-wrapper">
-      <TwSizeIndicator />
-      <Header />
-      <main id="main-content">
-        <slot />
-      </main>
-      <Footer />
-    </div>
+    <Header />
+    <main id="main-content">
+      <slot />
+    </main>
+    <Footer />
   </body>
 </html>
